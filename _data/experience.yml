@@ -1,19 +1,30 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Shopee Indonesia
+  position: Senior Software Engineer
+  duration: July, 2019 &mdash; Present
+  summary: Leading E-Marketplace Platform in Indonesia. Was involved as a Senior Software Engineer in the growth team working on several features such as calendar management, infographic management, etc <ul class="resume-item-list"><li>Tackling bugs and issues of the system and applying solution for them.</li><li>Implemented pub-sub systems to retrieve data asynchronously.</li><li>Optimised several API endpoints to retrieve data efficiently.</li><li>Involved in redesigning an existing feature to be more scalable.</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Bizzy Indonesia
+  position: Software Development Engineer
+  duration: June, 2018 &mdash; July, 2019
+  summary: B2B E-Marketplace & E-Procurement Platform in Indonesia. Was involved as a SDE in the commerce team working on several features such as catalog management, approval management, etc. <ul class="resume-item-list"><li>Tackling bugs and issues of the system and applying solution for them.</li><li>Developed several pub-sub systems to retrieve data asynchronously from one domain to another.</li><li>Optimised several API endpoints to retrieve data efficiently.</li><li>Involved in redesigning an existing feature to be more scalable.</li><li>Involved in designing a new microservice for a new feature (user budget management).</li></ul>
 
+- company: Errai Pasifik
+  position: Senior Software Engineer
+  duration: Sept, 2013  &mdash; June, 2018
+  summary: A product based development company enjoying a good relationship with LoopUp, a teleconferencing company based in London and San Francisco. <ul class="resume-item-list"><li>Maintaining LoopUp Outlook Client, the most used client for LoopUp teleconferencing services almost single-handedly.</li><li>Involved in implementing free trial sign up system, a new feature of LoopUp to widen their market reach.</li><li>Involved in the development of the new Account Management Portal to replace the old system.</li><li>Fixed any issues related to the DevOps build and deployment plan of projects used by Jakarta team.</li><li>Mentor the new software engineers in the programming and software development best practice.</li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: Mitrais
+  position: Programmer
+  duration: June, 2011  &mdash; August, 2013
+  summary: A project-based Software Development company with headquarter in Bali. Was involved in a project with TechnologyOne, Australia’s largest enterprise software company as the client. <ul class="resume-item-list"><li>Involved in the maintenance project of Property & Rating, a consolidated debt management and centralised policy and compliance management software solution for Australia’s local government. </li></ul>
+
+- company: Imtel Sinergi Utama
+  position: Software Developer
+  duration: Jan, 2011  &mdash; May, 2013
+  summary: An outsourcing software development company, they outsource software developers to Indonesian companies. Was involved in a project in Astra International, Indonesia’s largest diversified conglomerates (automotive, agribusiness, heavy equipment, mining, energy, financial services, IT and infrastructure & logistics). <ul class="resume-item-list"><li>Involved in the maintenance project of internal enterprise software in Astra International, using SSIS to transform data used for the project and ExtJS as the web frontend component. </li></ul>
+
+- company: PLN
+  position: Software Developer
+  duration: November, 2009  &mdash; June, 2010
+  summary: Indonesian government-owned corporation that provides electricity generation and distribution across Indonesia. Was involved as a software developer for their Knowledge Management Project. <ul class="resume-item-list"><li>Involved in the knowledge management portal development project, using Sharepoint 2007.</li></ul>

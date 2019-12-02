@@ -1,13 +1,16 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Master, Magister of Information Technology
+  uni: University of Indonesia
+  year: 2014 &mdash; 2016
+  summary: Taking Master programme to learn more about strategic alignment between organisation’s vision and Information Technology. Written a thesis about managing IT risks in a international startup company.
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+
+- degree: Bachelor, Computer Science
+  uni: University of Indonesia
+  year: 2005 &mdash; 2010
+  awards: 
+    - award: PIC of Robotics Competition in CompFest 2009, an annual event in the university.
+    - award: Published “Heart beat classification using wavelet feature based on neural network” in ICACSIS 2010.
+    - award: Published “Gradual Pattern of Homogeneous Robot Groups Using Simple Periodic Functions; Case Study Mindstorms NXT Lego Robots” in ICACSIS 2009.
+    - award: Published “An Application of Distributed Multihop Robot-based Communication Network in Restricted and Static Environment after Disaster” in ICACSIS 2009.
+  summary: Pursued my passion for software engineering by joining Microsoft Innovation Center University of Indonesia. Published several papers in International Conference on Advanced Computer Science and Information Systems (ICACSIS) 2009 and 2010
