@@ -6,10 +6,10 @@
   description: Unit testing, automated testing
 
 - skill: CI/CD
-  description: Bamboo
+  description: Bamboo, Bitbucket Pipelines
 
 - skill: Language Stack
-  description: .NET, Node.JS, Golang
+  description: .NET, Node.JS, PHP, Golang
 
 - skill: Cloud Development stack
   description: Azure, GCP, and AWS

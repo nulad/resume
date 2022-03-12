@@ -1,7 +1,12 @@
 # Jobs
+- company: PT. Global Poin Indonesia
+  position: Senior Fullstack Engineer
+  duration: Dec, 2019 &mdash; Present
+  summary: A loyalty and reward service company with its product Getplus, a loyalty and reward program in Indonesia. Was involved as a Senior Fullstack Engineer working on a full breadth of features, such as back office invoice and payment system, payment gateway service, receipt approval system and affiliate marketing system, among others <ul class="resume-item-list"><li>Involved first hand in migrating the infrastructure from Azure to AWS.</li><li>Involved in converting the project structure from monolith to microservice-based</li><li>Tackling bugs and issues of the system and applying solution for them.</li><li>Created and maintained the DevOps build and deployment plan of majority of the services.</li><li>Implemented a standardised auth method for every customer facing API endpoints.</li></ul>
+
 - company: Shopee Indonesia
   position: Senior Software Engineer
-  duration: July, 2019 &mdash; Present
+  duration: July, 2019 &mdash; Dec 2019
   summary: Leading E-Marketplace Platform in Indonesia. Was involved as a Senior Software Engineer in the growth team working on several features such as calendar management, infographic management, etc <ul class="resume-item-list"><li>Tackling bugs and issues of the system and applying solution for them.</li><li>Implemented pub-sub systems to retrieve data asynchronously.</li><li>Optimised several API endpoints to retrieve data efficiently.</li><li>Involved in redesigning an existing feature to be more scalable.</li></ul>
 
 - company: Bizzy Indonesia
@@ -17,12 +22,12 @@
 - company: Mitrais
   position: Programmer
   duration: June, 2011  &mdash; August, 2013
-  summary: A project-based Software Development company with headquarter in Bali. Was involved in a project with TechnologyOne, Australia’s largest enterprise software company as the client. <ul class="resume-item-list"><li>Involved in the maintenance project of Property & Rating, a consolidated debt management and centralised policy and compliance management software solution for Australia’s local government. </li></ul>
+  summary: A project-based Software Development company with headquarter in Bali. Was involved in a project with TechnologyOne, Australia's largest enterprise software company as the client. <ul class="resume-item-list"><li>Involved in the maintenance project of Property & Rating, a consolidated debt management and centralised policy and compliance management software solution for Australia's local government. </li></ul>
 
 - company: Imtel Sinergi Utama
   position: Software Developer
-  duration: Jan, 2011  &mdash; May, 2013
-  summary: An outsourcing software development company, they outsource software developers to Indonesian companies. Was involved in a project in Astra International, Indonesia’s largest diversified conglomerates (automotive, agribusiness, heavy equipment, mining, energy, financial services, IT and infrastructure & logistics). <ul class="resume-item-list"><li>Involved in the maintenance project of internal enterprise software in Astra International, using SSIS to transform data used for the project and ExtJS as the web frontend component. </li></ul>
+  duration: Jan, 2011  &mdash; May, 2011
+  summary: An outsourcing software development company, they outsource software developers to Indonesian companies. Was involved in a project in Astra International, Indonesia's largest diversified conglomerates (automotive, agribusiness, heavy equipment, mining, energy, financial services, IT and infrastructure & logistics). <ul class="resume-item-list"><li>Involved in the maintenance project of internal enterprise software in Astra International, using SSIS to transform data used for the project and ExtJS as the web frontend component. </li></ul>
 
 - company: PLN
   position: Software Developer
