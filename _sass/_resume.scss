@@ -228,7 +228,7 @@
   }
 
   body {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1rem;
   }
 
@@ -260,23 +260,23 @@
     margin: 0 0 1rem;
 
     .resume-item {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-top: 1.2rem;
+      margin-bottom: 1.2rem;
     }
 
     .resume-item-title {
-      font-size: 16px;
+      font-size: 12px;
       line-height: .7em;
     }
 
     .resume-item-details {
-      font-size: 12px;
-      margin: 0 0 .75rem;
+      font-size: 10px;
+      margin: 0 0 .5rem;
       line-height: .7em;
       font-style: italic;
 
       &.award-title {
-        font-size: 11px;
+        font-size: 10px;
       }
     }
   }

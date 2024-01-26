@@ -18,9 +18,9 @@ resume_contact_email:           "nuladwisnupambudi@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "+62 852 1138 5794"
-resume_contact_address:         "Jalan Margonda Raya Gg Ciliwung Rt 05/01, Depok"
+resume_contact_address:         "Depok, Indonesia"
 
-resume_header_contact_info:     "Jalan Margonda Raya Gg Ciliwung Rt 05/01, Depok • +62 852 1138 5794 • nuladwisnupambudi@gmail.com"
+resume_header_contact_info:     "Depok, Indonesia • nuladwisnupambudi@gmail.com"
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>I’m a problem-solving oriented software engineer; dividing problems to bite-sized chunk, applying logic and sprinkle some code to solve it really gets me going. Fortunate enough to experience solving problems in several knowledge domains, such as internal enterprise application, Australia's regional government regulatory in the fields of property & housing, B2B marketplace system, loyalty & reward program and cloud telephony services. Have a dream to design and implement robust and effective solutions as an architect. In the middle of becoming polyglot in multiple systems, with experience in .NET, Node.JS, PHP and Golang.</p>"

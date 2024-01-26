@@ -35,7 +35,7 @@
           {% include icon-links.html %}
         </div>
 
-        <div class="executive-summary" itemprop="description">
+        <div class="executive-summary no-print" itemprop="description">
           {{ site.resume_header_intro }}
         </div>
 
@@ -45,6 +45,10 @@
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
+
+        <p class="print-only" style="text-align: center;">
+          {{ site.resume_header_contact_info }}
+        </p>
 
       </header>
 
@@ -57,20 +61,11 @@
         </header>
 
         {% for job in site.data.experience %}
-        {% if item_counter == 1 or item_counter == 5 %}
-        <div class="resume-item pagebreak" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
-        </div><!-- end of resume-item -->
-        {% else %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
-        {% endif %}
-        <div class="invisible">{% increment item_counter %}</div> 
         {% endfor %}
 
       </section>
