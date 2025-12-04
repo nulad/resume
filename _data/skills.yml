@@ -9,7 +9,7 @@
   description: Bamboo, Bitbucket Pipelines
 
 - skill: Language Stack
-  description: .NET, Node.JS, PHP, Golang
+  description: .NET, Node.JS, PHP, Golang, Java
 
 - skill: Cloud Development stack
   description: Azure, GCP, and AWS
