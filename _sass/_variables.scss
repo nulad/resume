@@ -4,18 +4,35 @@
 $container-width: 980px !default;
 $grid-gutter:     10px !default;
 
-// Colors
+// Brutalist Colors - Pure black and white only
 $white:             #fff;
-$black:             #333;
+$black:             #000;
 
 // Styles
 $text_color:        $black;
 
-// Font stack
-$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// Brutalist Font Stack - Monospace only
+$body-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
 // The base body size
 $body-font-size: 13px !default;
 
-// Monospace font stack
-$mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+// Monospace font stack (same as body font for brutalist consistency)
+$mono-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+
+// Brutalist Border Width Scale
+$border-width-thin: 2px;
+$border-width-medium: 3px;
+$border-width-thick: 4px;
+$border-width-heavy: 5px;
+
+// Brutalist Spacing Scale
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+$spacing-xxl: 48px;
+
+// Brutalist Transitions - Disabled for instant state changes
+$transition-none: none;

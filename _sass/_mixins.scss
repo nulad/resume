@@ -1,16 +1,34 @@
 // Mixins
 // ---------------------------------------/
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  -moz-border-radius: $radius;
-  border-radius: $radius;
+// Brutalist Border Utilities
+@mixin border-brutalist($width: $border-width-medium, $style: solid, $color: $black) {
+  border: $width $style $color;
 }
 
-@mixin transition($value) {
-  -webkit-transition: $value;
-  -moz-transition: $value;
-  transition: $value;
+@mixin border-brutalist-top($width: $border-width-thick) {
+  border-top: $width solid $black;
+}
+
+@mixin border-brutalist-bottom($width: $border-width-medium) {
+  border-bottom: $width solid $black;
+}
+
+@mixin border-brutalist-left($width: $border-width-medium) {
+  border-left: $width solid $black;
+}
+
+@mixin border-brutalist-right($width: $border-width-medium) {
+  border-right: $width solid $black;
+}
+
+// Brutalist Box Shadow (harsh, no blur)
+@mixin shadow-brutalist($offset: 2px) {
+  box-shadow: $offset $offset 0 $black;
+}
+
+@mixin shadow-brutalist-inset($offset: 2px) {
+  box-shadow: inset $offset $offset 0 $black;
 }
 
 // Clearfix
@@ -30,8 +48,20 @@
   }
 }
 
-// media querie tools
+// Brutalist Responsive Breakpoints
+@mixin mobile {
+  @media (max-width: 600px) { @content; }
+}
 
+@mixin tablet {
+  @media (min-width: 601px) and (max-width: 1024px) { @content; }
+}
+
+@mixin desktop {
+  @media (min-width: 1025px) { @content; }
+}
+
+// Legacy media queries (kept for compatibility)
 @mixin media_max($screen_width) {
   @media (max-width: $screen_width) { @content; }
 }
@@ -48,56 +78,103 @@
   @media (max-width: 600px) { @content; }
 }
 
-// type utilities
-
-@mixin sans {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+// Brutalist Typography Utilities
+@mixin mono {
+  font-family: $mono-font;
 }
 
-@mixin sans_light {
-  @include sans;
+@mixin mono-light {
+  @include mono;
   font-weight: 300;
 }
 
-@mixin sans_regular {
-  @include sans;
+@mixin mono-regular {
+  @include mono;
   font-weight: 400;
 }
 
-@mixin sans_bold {
-  @include sans;
+@mixin mono-bold {
+  @include mono;
   font-weight: 700;
 }
 
-@mixin sans_extrabold {
-  @include sans;
-  font-weight: 800;
+@mixin mono-black {
+  @include mono;
+  font-weight: 900;
 }
 
-@mixin serif {
-  font-family: "Lora", "Minion Pro", Palatino, Georgia, serif;
+// Brutalist Hover Effects (instant state changes)
+@mixin hover-brutalist {
+  &:hover {
+    background-color: $black;
+    color: $white;
+    cursor: pointer;
+    transition: $transition-none;
+  }
 }
 
-@mixin serif_regular {
-  @include serif;
-  font-weight: 400;
+@mixin hover-brutalist-invert {
+  &:hover {
+    background-color: $white;
+    color: $black;
+    border-color: $black;
+    cursor: pointer;
+    transition: $transition-none;
+  }
 }
 
-@mixin serif_bold {
-  @include serif;
-  font-weight: 700;
+@mixin hover-brutalist-outline {
+  &:hover {
+    outline: $border-width-thick solid $black;
+    outline-offset: 2px;
+    transition: $transition-none;
+  }
 }
 
-// layout
-
-@mixin section_border {
-  border-top: 4px solid #c7c7c7;
-  border-bottom: 2px solid #c7c7c7;
-  padding: .2rem 0 .4rem;
+// Brutalist Print Styles
+@mixin print-brutalist {
+  @media print {
+    color: $black !important;
+    background-color: $white !important;
+    border-color: $black !important;
+    
+    * {
+      color: $black !important;
+      background-color: $white !important;
+      box-shadow: none !important;
+    }
+    
+    a {
+      text-decoration: underline;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      page-break-after: avoid;
+    }
+    
+    p, ul, ol {
+      page-break-inside: avoid;
+    }
+  }
 }
 
-@mixin section_border_thin {
-  border-top: 1px solid #c7c7c7;
-  border-bottom: 1px solid #c7c7c7;
-  padding: .2rem 0 .2rem;
+// Brutalist Layout Utilities
+@mixin section-brutalist {
+  border-top: $border-width-thick solid $black;
+  border-bottom: $border-width-medium solid $black;
+  padding: $spacing-sm 0 $spacing-md;
+}
+
+@mixin section-brutalist-thin {
+  border-top: $border-width-thin solid $black;
+  border-bottom: $border-width-thin solid $black;
+  padding: $spacing-xs 0 $spacing-xs;
+}
+
+@mixin container-brutalist {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $grid-gutter;
+  border-left: $border-width-thin solid $black;
+  border-right: $border-width-thin solid $black;
 }
