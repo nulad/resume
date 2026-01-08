@@ -251,9 +251,11 @@
   text-align: center;
   margin-bottom: 3rem;
 
-  .footer-line {
-    margin: 0;
-    font-size: 0.875rem;
+  ul, ol {
+    padding-left: 20px;
+    margin: 16px 0;
+    text-align: center;
+    margin-bottom: 3rem;
     color: #000000;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
@@ -303,6 +305,17 @@
     print-color-adjust: exact !important;
   }
 
+  h1 {
+    background: none !important;
+    color: #000000 !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  ul, ol {
+    border-left: none !important;
+  }
+
   .page-header {
     padding: 1rem 0 0.2rem;
 
@@ -315,10 +328,7 @@
       font-weight: 700;
       font-size: 2rem;
       margin: 0 0 0.2rem;
-      background: #000000;
-      color: #ffffff;
-      border: 2px solid #000000;
-      padding: 6px 12px;
+      color: #000000;
     }
 
     .executive-summary {
