@@ -1,9 +1,10 @@
-// Base styles
+// Base styles - Brutalist Design
 // ---------------------------------------/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  transition: none !important;
 }
 
 html {
@@ -15,6 +16,121 @@ body{
   color: $text_color;
   font-size: 16px;
   line-height: 1.5;
+}
+
+// Brutalist Typography
+// ---------------------------------------/
+h1, h2, h3, h4, h5, h6 {
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 24px 0 16px 0;
+  border: 3px solid #000000;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+h1 { font-size: 32px; }
+h2 { font-size: 28px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+// Brutalist Links
+// ---------------------------------------/
+a {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  
+  &:hover {
+    background: #000000;
+    color: #ffffff;
+  }
+  
+  &:focus {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+}
+
+// Brutalist Lists
+// ---------------------------------------/
+ul, ol {
+  border-left: 4px solid #000000;
+  padding-left: 20px;
+  margin: 16px 0;
+  
+  li {
+    margin-bottom: 8px;
+    position: relative;
+  }
+}
+
+ul {
+  list-style: none;
+  
+  li {
+    &:before {
+      content: "■";
+      position: absolute;
+      left: -20px;
+      color: #000000;
+    }
+  }
+}
+
+// Brutalist Code Blocks
+// ---------------------------------------/
+code {
+  background: #ffffff;
+  border: 2px solid #000000;
+  padding: 2px 6px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+pre {
+  background: #ffffff;
+  border: 3px solid #000000;
+  padding: 16px;
+  overflow-x: auto;
+  
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+// Brutalist Form Elements
+// ---------------------------------------/
+input, textarea, select, button {
+  border: 2px solid #000000;
+  padding: 8px 12px;
+  background: #ffffff;
+  color: #000000;
+  font-family: inherit;
+  font-size: 16px;
+  
+  &:focus {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+}
+
+button {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  
+  &:hover {
+    background: #ffffff;
+    color: #000000;
+  }
 }
 
 .wrapper:before,
