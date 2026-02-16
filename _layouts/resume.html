@@ -77,11 +77,11 @@
           <p class="resume-item-description">{{ job.description }}</p>
           {% endif %}
           {% if job.bullets %}
-          <ul class="resume-item-list">
+          <div class="resume-item-bullets">
             {% for bullet in job.bullets %}
-            <li>{{ bullet }}</li>
+            <p class="resume-bullet">&bull; {{ bullet }}</p>
             {% endfor %}
-          </ul>
+          </div>
           {% endif %}
           {% if job.tech_stack %}
           <p class="resume-item-techstack">Tech Stack: {{ job.tech_stack }}</p>
@@ -102,11 +102,11 @@
         </header>
 
         <div class="resume-item">
-          <ul class="resume-item-list">
+          <div class="resume-item-bullets">
             {% for item in site.data.achievements %}
-            <li>{{ item.description }}</li>
+            <p class="resume-bullet">&bull; {{ item.description }}</p>
             {% endfor %}
-          </ul>
+          </div>
         </div>
 
       </section>
@@ -141,11 +141,11 @@
         </header>
 
         <div class="resume-item">
-          <ul class="resume-item-list">
+          <div class="resume-item-bullets">
             {% for pub in site.data.publications %}
-            <li>{{ pub.title }} &mdash; {{ pub.venue }}</li>
+            <p class="resume-bullet">&bull; {{ pub.title }} &mdash; {{ pub.venue }}</p>
             {% endfor %}
-          </ul>
+          </div>
         </div>
       </section>
       <!-- end Publications -->

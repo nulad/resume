@@ -254,6 +254,18 @@
     font-size: 0.9em;
     color: #000000;
   }
+
+  .resume-item-bullets {
+    margin: 0.5rem 0 0;
+  }
+
+  .resume-bullet {
+    margin: 0.25rem 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    color: #000000;
+  }
 }
 
 // footer styles - Brutalist
@@ -434,6 +446,19 @@
       line-height: 1.4;
       margin: 0.3rem 0 0;
       font-style: italic;
+    }
+
+    .resume-item-bullets {
+      margin: 0.2rem 0 0;
+    }
+
+    .resume-bullet {
+      font-family: inherit;
+      font-size: 10px;
+      line-height: 1.4;
+      margin: 0.15rem 0;
+      padding-left: 1em;
+      text-indent: -1em;
     }
   }
 
