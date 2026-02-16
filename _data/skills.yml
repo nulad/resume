@@ -9,10 +9,10 @@
   description: AWS (ECS, Lambda, SQS, SNS, S3, RDS), GCP, Azure
 
 - skill: Architecture & Messaging
-  description: Microservices, REST APIs, event-driven architecture, pub-sub, message queues
+  description: Microservices, REST API design, event-driven architecture, pub-sub, message queues, platform reliability, scalability
 
-- skill: DevOps & CI/CD
-  description: Docker, Bamboo, Bitbucket Pipelines, GitHub Actions, infrastructure as code
+- skill: DevOps & Observability
+  description: Docker, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), CloudWatch, logging, monitoring, infrastructure as code
 
 - skill: Development Practices
   description: Agile (Scrum, Kanban), unit testing, integration testing, code review, mentoring

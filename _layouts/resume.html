@@ -48,9 +48,16 @@
         {% else %}
         {% endif %}
 
-        <p class="print-only" style="text-align: center;">
-          {{ site.resume_header_contact_info }}
-        </p>
+        <div class="print-only print-contact-info">
+          <p>
+            Email: {{ site.resume_contact_email }}
+            | Phone: {{ site.resume_contact_telephone }}
+            | Location: {{ site.resume_contact_address }}
+            {% if site.resume_social_links.resume_linkedin_url %}
+            | LinkedIn: {{ site.resume_social_links.resume_linkedin_url }}
+            {% endif %}
+          </p>
+        </div>
 
       </header>
 
@@ -86,22 +93,32 @@
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul></h5>
-
-
+          {% if education.summary %}
           <p class="resume-item-copy">{{ education.summary }}</p>
+          {% endif %}
         </div>
         {% endfor %}
       </section>
       <!-- end Education -->
       {% endif %}
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for pub in site.data.publications %}
+            <li>{{ pub.title }} &mdash; {{ pub.venue }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+      <!-- end Publications -->
+      {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
