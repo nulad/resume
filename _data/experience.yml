@@ -2,93 +2,77 @@
 - company: Trilogy, Inc
   position: AI-first Software Engineer III
   duration: Apr, 2024 &mdash; Dec, 2025
-  summary: >
-    <p>American software company headquartered in Austin, Texas.</p>
-    <ul class="resume-item-list">
-      <li>Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity</li>
-      <li>Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and improving long-term maintainability</li>
-      <li>Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance</li>
-    </ul>
-    <p>Tech Stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)</p>
+  description: American software company headquartered in Austin, Texas.
+  bullets:
+    - Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity
+    - Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and improving long-term maintainability
+    - Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance
+  tech_stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)
 
 - company: PT. Global Poin Indonesia
   position: Senior Backend Engineer
   duration: Dec, 2019 &mdash; Jan, 2024
-  summary: >
-    <p>Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program.</p>
-    <ul class="resume-item-list">
-      <li>Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices</li>
-      <li>Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability</li>
-      <li>Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors</li>
-      <li>Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange</li>
-      <li>Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue</li>
-      <li>Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity</li>
-    </ul>
-    <p>Tech Stack: Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis</p>
+  description: Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program.
+  bullets:
+    - Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices
+    - Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability
+    - Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors
+    - Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange
+    - Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue
+    - Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity
+  tech_stack: Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis
 
 - company: Shopee Indonesia
   position: Senior Software Engineer
   duration: July, 2019 &mdash; Dec 2019
-  summary: >
-    <p>Leading e-commerce marketplace platform in Southeast Asia.</p>
-    <ul class="resume-item-list">
-      <li>Developed calendar management and infographic management features on the growth team, increasing user engagement and content visibility</li>
-      <li>Diagnosed and resolved production issues to maintain platform stability across high-traffic services</li>
-    </ul>
-    <p>Tech Stack: Golang, GCP, Redis</p>
+  description: Leading e-commerce marketplace platform in Southeast Asia.
+  bullets:
+    - Developed calendar management and infographic management features on the growth team, increasing user engagement and content visibility
+    - Diagnosed and resolved production issues to maintain platform stability across high-traffic services
+  tech_stack: Golang, GCP, Redis
 
 - company: Bizzy Indonesia
   position: Software Development Engineer
   duration: June, 2018 &mdash; July, 2019
-  summary: >
-    <p>B2B e-marketplace and e-procurement platform in Indonesia.</p>
-    <ul class="resume-item-list">
-      <li>Built pub-sub messaging systems for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times</li>
-      <li>Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows</li>
-      <li>Enhanced catalog management and approval management features, resolving system bugs to improve platform reliability</li>
-    </ul>
-    <p>Tech Stack: Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL</p>
+  description: B2B e-marketplace and e-procurement platform in Indonesia.
+  bullets:
+    - Built pub-sub messaging systems for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times
+    - Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows
+    - Enhanced catalog management and approval management features, resolving system bugs to improve platform reliability
+  tech_stack: Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL
 
 - company: Errai Pasifik
   position: Senior Software Engineer
-  duration: Sept, 2013  &mdash; June, 2018
-  summary: >
-    <p>Product development company partnered with LoopUp, a cloud telephony provider based in London and San Francisco.</p>
-    <ul class="resume-item-list">
-      <li>Owned and maintained the LoopUp Outlook Client end-to-end, serving as the primary client application for LoopUp's teleconferencing services</li>
-      <li>Implemented free trial sign-up system that expanded LoopUp's market reach and increased trial-to-paid conversion</li>
-      <li>Developed the Account Management Portal, replacing the legacy system with a modernized interface for improved user experience</li>
-      <li>Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, ensuring reliable release processes</li>
-      <li>Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth</li>
-    </ul>
-    <p>Tech Stack: .NET, C#, SQL Server</p>
+  duration: Sept, 2013 &mdash; June, 2018
+  description: Product development company partnered with LoopUp, a cloud telephony provider based in London and San Francisco.
+  bullets:
+    - Owned and maintained the LoopUp Outlook Client end-to-end, serving as the primary client application for LoopUp's teleconferencing services
+    - Implemented free trial sign-up system that expanded LoopUp's market reach and increased trial-to-paid conversion
+    - Developed the Account Management Portal, replacing the legacy system with a modernized interface for improved user experience
+    - Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, ensuring reliable release processes
+    - Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth
+  tech_stack: .NET, C#, SQL Server
 
 - company: Mitrais
   position: Programmer
-  duration: June, 2011  &mdash; August, 2013
-  summary: >
-    <p>Project-based software development consultancy headquartered in Bali.</p>
-    <ul class="resume-item-list">
-      <li>Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), a consolidated debt management and compliance solution used by Australian local governments</li>
-    </ul>
-    <p>Tech Stack: .NET, VB.NET, SQL Server</p>
+  duration: June, 2011 &mdash; August, 2013
+  description: Project-based software development consultancy headquartered in Bali.
+  bullets:
+    - Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), a consolidated debt management and compliance solution used by Australian local governments
+  tech_stack: .NET, VB.NET, SQL Server
 
 - company: Imtel Sinergi Utama
   position: Software Developer
-  duration: Jan, 2011  &mdash; May, 2011
-  summary: >
-    <p>Software development outsourcing company serving Indonesian enterprises.</p>
-    <ul class="resume-item-list">
-      <li>Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines and ExtJS web frontend components</li>
-    </ul>
-    <p>Tech Stack: .NET, VB.NET, SQL Server, SSIS</p>
+  duration: Jan, 2011 &mdash; May, 2011
+  description: Software development outsourcing company serving Indonesian enterprises.
+  bullets:
+    - Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines and ExtJS web frontend components
+  tech_stack: .NET, VB.NET, SQL Server, SSIS
 
 - company: PLN
   position: Software Developer (Part time)
-  duration: November, 2009  &mdash; June, 2010
-  summary: >
-    <p>Indonesia's state-owned electricity utility serving 200M+ customers nationwide.</p>
-    <ul class="resume-item-list">
-      <li>Developed the Knowledge Management Portal using SharePoint 2007, enabling centralized knowledge sharing across the organization</li>
-    </ul>
-    <p>Tech Stack: .NET, SharePoint 2007</p>
+  duration: November, 2009 &mdash; June, 2010
+  description: Indonesia's state-owned electricity utility serving 200M+ customers nationwide.
+  bullets:
+    - Developed the Knowledge Management Portal using SharePoint 2007, enabling centralized knowledge sharing across the organization
+  tech_stack: .NET, SharePoint 2007

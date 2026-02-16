@@ -241,6 +241,19 @@
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     color: #000000;
   }
+
+  .resume-item-description {
+    margin: 0.5rem 0 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    color: #000000;
+  }
+
+  .resume-item-techstack {
+    margin: 0.5rem 0 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.9em;
+    color: #000000;
+  }
 }
 
 // footer styles - Brutalist
@@ -406,6 +419,21 @@
       font-size: 10px;
       line-height: 1.4;
       margin: 0.2rem 0 0;
+    }
+
+    .resume-item-description {
+      font-family: inherit;
+      font-size: 10px;
+      line-height: 1.4;
+      margin: 0.2rem 0 0;
+    }
+
+    .resume-item-techstack {
+      font-family: inherit;
+      font-size: 10px;
+      line-height: 1.4;
+      margin: 0.3rem 0 0;
+      font-style: italic;
     }
   }
 

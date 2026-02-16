@@ -5,8 +5,11 @@
 - skill: Databases & Caching
   description: PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis
 
-- skill: Cloud & Infrastructure
-  description: AWS (ECS, Lambda, SQS, SNS, S3, RDS), GCP, Azure
+- skill: AWS
+  description: ECS, Lambda, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch
+
+- skill: Other Cloud Platforms
+  description: GCP, Azure
 
 - skill: Architecture & Messaging
   description: Microservices, REST API design, event-driven architecture, pub-sub, message queues, platform reliability, scalability

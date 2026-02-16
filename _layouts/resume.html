@@ -73,7 +73,19 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <div class="resume-item-copy">{{ job.summary }}</div>
+          {% if job.description %}
+          <p class="resume-item-description">{{ job.description }}</p>
+          {% endif %}
+          {% if job.bullets %}
+          <ul class="resume-item-list">
+            {% for bullet in job.bullets %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          {% if job.tech_stack %}
+          <p class="resume-item-techstack">Tech Stack: {{ job.tech_stack }}</p>
+          {% endif %}
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -81,6 +93,25 @@
       <!-- end Experience -->
       {% endif %}
 
+      {% if site.resume_section_achievements %}
+      <!-- begin Selected Achievements -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Selected Achievements</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for item in site.data.achievements %}
+            <li>{{ item.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Selected Achievements -->
+      {% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
@@ -158,25 +189,6 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_achievements %}
-      <!-- begin Selected Achievements -->
-      <section class="content-section">
-
-        <header class="section-header">
-          <h2>Selected Achievements</h2>
-        </header>
-
-        <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for item in site.data.achievements %}
-            <li>{{ item.description }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-
-      </section>
-      <!-- end Selected Achievements -->
-      {% endif %}
 
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
