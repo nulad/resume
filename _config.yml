@@ -23,7 +23,7 @@ resume_contact_address:         "Depok, Indonesia"
 resume_header_contact_info:     "Depok, Indonesia • nuladwisnupambudi@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>Senior Backend Engineer with 15+ years of experience designing, building, and scaling distributed systems across loyalty platforms, e-commerce, B2B marketplaces, and cloud telephony. Proven track record in technical leadership, spearheading cloud migrations (Azure to AWS), scalable microservices architecture, AWS CI/CD pipelines, platform reliability, and monolith-to-microservices decomposition for 20+ services. Proficient in Node.js, Golang, Java, PHP, and .NET with deep expertise in AWS, PostgreSQL, MySQL, Redis, and event-driven architectures. Targeting remote Senior Backend Engineer roles focused on scalable cloud platforms.</p>"
+resume_header_intro: "<p>Senior Backend Engineer with 15+ years of experience designing, building, and scaling distributed systems across loyalty platforms, e-commerce, B2B marketplaces, and cloud telephony. Proven track record spearheading cloud migrations (Azure to AWS), scalable microservices architecture, AWS CI/CD pipelines, platform reliability, and monolith-to-microservices decomposition for 20+ services. Proficient in Node.js, Golang, Java, PHP, and .NET with deep expertise in AWS, PostgreSQL, MySQL, Redis, and event-driven architectures. Targeting remote Senior Backend Engineer roles focused on scalable cloud platforms.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
