@@ -318,7 +318,6 @@
     padding: 0.5rem 0 0.2rem;
 
     .header-name {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-weight: 700;
       font-size: 2rem;
       margin: 0 0 0.2rem;
@@ -366,7 +365,6 @@
     margin-bottom: 0.5rem;
 
     h2 {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 1.2rem;
       line-height: 1.5rem;
       display: block;
@@ -387,14 +385,12 @@
     }
 
     .resume-item-title {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 12px;
       line-height: 1.2;
       color: #000000;
     }
 
     .resume-item-details {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       font-size: 10px;
       margin: 0 0 0.3rem;
       line-height: 1.2;
@@ -406,6 +402,7 @@
     }
 
     .resume-item-copy {
+      font-family: inherit;
       font-size: 10px;
       line-height: 1.4;
       margin: 0.2rem 0 0;
