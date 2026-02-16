@@ -382,6 +382,8 @@
       border: none;
       border-bottom: 1px solid #cccccc;
       padding: 4px 0;
+      break-inside: avoid;
+      -webkit-break-inside: avoid;
     }
 
     .resume-item-title {
