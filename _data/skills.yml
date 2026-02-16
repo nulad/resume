@@ -15,7 +15,7 @@
   description: Microservices, REST API design, event-driven architecture, pub-sub, message queues, platform reliability, scalability
 
 - skill: DevOps & Observability
-  description: Docker, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), CloudWatch, logging, monitoring, infrastructure as code
+  description: Docker, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), CloudWatch, logging, monitoring, tracing, Infrastructure as Code (CloudFormation)
 
 - skill: Development Practices
   description: Agile (Scrum, Kanban), unit testing, integration testing, code review, mentoring
