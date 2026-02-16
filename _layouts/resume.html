@@ -158,6 +158,26 @@
       <!-- end Skills -->
       {% endif %}
 
+      {% if site.resume_section_achievements %}
+      <!-- begin Selected Achievements -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Selected Achievements</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for item in site.data.achievements %}
+            <li>{{ item.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Selected Achievements -->
+      {% endif %}
+
       {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">

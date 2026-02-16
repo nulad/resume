@@ -22,7 +22,7 @@
       <li>Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors</li>
       <li>Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange</li>
       <li>Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue</li>
-      <li>Established CI/CD pipelines and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity</li>
+      <li>Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity</li>
     </ul>
     <p>Tech Stack: Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis</p>
 
