@@ -6,10 +6,10 @@
     <p>American software company headquartered in Austin, Texas.</p>
     <ul class="resume-item-list">
       <li>Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity</li>
-      <li>Upgraded Jive platform libraries and frameworks across 15+ modules, remediating security vulnerabilities and improving long-term maintainability</li>
+      <li>Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and improving long-term maintainability</li>
       <li>Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance</li>
     </ul>
-    <p>Tech Stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS</p>
+    <p>Tech Stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)</p>
 
 - company: PT. Global Poin Indonesia
   position: Senior Backend Engineer
@@ -17,14 +17,14 @@
   summary: >
     <p>Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program.</p>
     <ul class="resume-item-list">
-      <li>Architected and led infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices</li>
+      <li>Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices</li>
       <li>Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability</li>
       <li>Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors</li>
       <li>Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange</li>
       <li>Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue</li>
       <li>Established CI/CD pipelines and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity</li>
     </ul>
-    <p>Tech Stack: Node.js, PHP, AWS (ECS, Lambda, SQS, S3), Aurora MySQL, Redis</p>
+    <p>Tech Stack: Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis</p>
 
 - company: Shopee Indonesia
   position: Senior Software Engineer
@@ -47,7 +47,7 @@
       <li>Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows</li>
       <li>Enhanced catalog management and approval management features, resolving system bugs to improve platform reliability</li>
     </ul>
-    <p>Tech Stack: Node.js, AWS (SQS, SNS), MongoDB, MySQL</p>
+    <p>Tech Stack: Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL</p>
 
 - company: Errai Pasifik
   position: Senior Software Engineer
@@ -61,7 +61,7 @@
       <li>Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, ensuring reliable release processes</li>
       <li>Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth</li>
     </ul>
-    <p>Tech Stack: .NET, C#, SQL Server, WPF</p>
+    <p>Tech Stack: .NET, C#, SQL Server</p>
 
 - company: Mitrais
   position: Programmer
