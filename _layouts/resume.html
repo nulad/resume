@@ -73,7 +73,7 @@
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-          <p class="resume-item-copy">{{ job.summary }}</p>
+          <div class="resume-item-copy">{{ job.summary }}</div>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -94,7 +94,7 @@
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
           <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
           {% if education.summary %}
-          <p class="resume-item-copy">{{ education.summary }}</p>
+          <div class="resume-item-copy">{{ education.summary }}</div>
           {% endif %}
         </div>
         {% endfor %}
