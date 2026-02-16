@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Nulad W. Pambudi"
-resume_title:                   "Senior Software Engineer"
+resume_title:                   "Senior Backend Engineer"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "nuladwisnupambudi@gmail.com"
@@ -23,7 +23,7 @@ resume_contact_address:         "Depok, Indonesia"
 resume_header_contact_info:     "Depok, Indonesia • nuladwisnupambudi@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I’m a problem-solving oriented software engineer; dividing problems to bite-sized chunk, applying logic and sprinkle some code to solve it really gets me going. Fortunate enough to experience solving problems in several knowledge domains, such as internal enterprise application, Australia's regional government regulatory in the fields of property & housing, B2B marketplace system, loyalty & reward program and cloud telephony services. Have a dream to design and implement robust and effective solutions as an architect. In the middle of becoming polyglot in multiple systems, with experience in .NET, Node.JS, Java, PHP and Golang.</p>"
+resume_header_intro: "<p>Senior Backend Engineer with 15+ years of experience designing, building, and scaling distributed systems across loyalty platforms, e-commerce, B2B marketplaces, and cloud telephony. Proven track record leading cloud migrations (Azure to AWS), monolith-to-microservices decomposition, and CI/CD pipeline establishment for 20+ services. Proficient in Node.js, Golang, Java, PHP, and .NET with deep expertise in AWS, PostgreSQL, MySQL, Redis, and event-driven architectures. Seeking remote Senior Backend Engineer roles where I can architect resilient, high-throughput backend systems.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

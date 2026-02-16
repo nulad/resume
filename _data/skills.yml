@@ -1,18 +1,18 @@
 # Skills
-- skill: Agile Software Development
-  description: Kanban and Scrum
+- skill: Backend Languages
+  description: Node.js, Golang, Java, PHP, C# (.NET), Python
 
-- skill: Testing
-  description: Unit testing, automated testing
+- skill: Databases & Caching
+  description: PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis
 
-- skill: CI/CD
-  description: Bamboo, Bitbucket Pipelines
+- skill: Cloud & Infrastructure
+  description: AWS (ECS, Lambda, SQS, SNS, S3, RDS), GCP, Azure
 
-- skill: Language Stack
-  description: .NET, Node.JS, PHP, Golang, Java
+- skill: Architecture & Messaging
+  description: Microservices, REST APIs, event-driven architecture, pub-sub, message queues
 
-- skill: Cloud Development stack
-  description: Azure, GCP, and AWS
+- skill: DevOps & CI/CD
+  description: Docker, Bamboo, Bitbucket Pipelines, GitHub Actions, infrastructure as code
 
-- skill: Database
-  description: MySQL, SQL Server, Mongo, Redis
+- skill: Development Practices
+  description: Agile (Scrum, Kanban), unit testing, integration testing, code review, mentoring

