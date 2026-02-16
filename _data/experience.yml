@@ -14,7 +14,7 @@
   duration: Dec, 2019 &mdash; Jan, 2024
   description: Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program.
   bullets:
-    - Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 20+ microservices
+    - Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 10+ microservices
     - Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability
     - Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors
     - Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange
