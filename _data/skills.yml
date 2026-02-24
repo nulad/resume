@@ -1,21 +1,15 @@
 # Skills
-- skill: Backend Languages
+- skill: Distributed Systems & Architecture
+  description: Microservices, event-driven architecture, pub-sub messaging, scalable backend design, reliability engineering, monolith decomposition, REST API design
+
+- skill: Languages
   description: Node.js, Golang, Java, PHP, C# (.NET), Python
 
-- skill: Databases & Caching
+- skill: Cloud & Infrastructure
+  description: AWS (Lambda, ECS, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code
+
+- skill: Databases
   description: PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis
 
-- skill: AWS
-  description: ECS, Lambda, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch
-
-- skill: Other Cloud Platforms
-  description: GCP, Azure
-
-- skill: Architecture & Messaging
-  description: Microservices, REST API design, event-driven architecture, pub-sub, message queues, platform reliability, scalability
-
-- skill: DevOps & Observability
-  description: Docker, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), CloudWatch, logging, monitoring, tracing, Infrastructure as Code (CloudFormation)
-
-- skill: Development Practices
-  description: Agile (Scrum, Kanban), unit testing, integration testing, code review, mentoring
+- skill: Practices
+  description: Performance optimization, reliability engineering, code review, mentoring, agile delivery (Scrum, Kanban), unit testing, integration testing

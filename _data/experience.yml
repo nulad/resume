@@ -27,7 +27,7 @@
   duration: July, 2019 &mdash; Dec 2019
   description: Leading e-commerce marketplace platform in Southeast Asia.
   bullets:
-    - Developed calendar management and infographic management features on the growth team, increasing user engagement and content visibility
+    - Developed infographic and calendar management features for Shopee Indonesia's growth team, serving a monthly active user base of 19 million users
     - Diagnosed and resolved production issues to maintain platform stability across high-traffic services
   tech_stack: Golang, GCP, Redis
 
