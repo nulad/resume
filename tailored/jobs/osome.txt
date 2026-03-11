@@ -1,0 +1,72 @@
+We're Osome - an international fintech startup making the lives of entrepreneurs easier. We help thousands of businesses kick admin, accounting and bookkeeping out of their day-to-day, so they can spend more time on what's important to them. We've developed a unique solution that combines SaaS with a human-in-the-loop approach to provide full-fledged services in real-time.
+
+We're experiencing tremendous growth in both clients and team members. We have over 500 people in our global offices 🌎. We're looking for more bright minds who'd love to change the world by solving complex problems.
+
+Expression of Interest:
+We love connecting with great people, even if the perfect role isn’t open right now (or if you’re not actively job-hunting… yet!). Think of this as an open invitation to say hi, stay on our radar, and explore what the future could look like together.
+
+What you'll do:
+⭐ Translate ideas, designs, and business requirements into high-quality, scalable, and maintainable code using React and Node.js.
+
+⭐ Develop reusable components and libraries, ensuring consistency and efficiency across applications.
+
+⭐ Optimize frontend and backend components for performance, scalability, and reliability.
+
+⭐ Design and implement robust APIs, ensuring security, maintainability, and efficiency in data communication.
+
+⭐ Develop and enforce best practices in full-stack development, including modular architecture, error handling, and performance optimization.
+
+⭐ Write unit, integration, and end-to-end tests, ensuring high test coverage and smooth deployments.
+
+⭐ Ensure security and privacy best practices across the stack, including authentication, encryption, and data protection.
+
+⭐ Improve DevOps processes and CI/CD pipelines, automating builds, deployments, and monitoring.
+
+⭐ Collaborate with designers, product managers, and backend engineers, ensuring seamless feature development and integration.
+
+⭐ Stay up to date with the latest technologies, continuously improving development workflows and system architecture.
+
+Who you are:
+⭐ 5+ years of experience in full-stack development, with a strong focus on React (with hooks) and Node.js (Koa or Express).
+
+⭐ Strong proficiency in JavaScript and TypeScript.
+
+⭐ Experience designing and developing RESTful and WebSocket APIs, ensuring scalability and security.
+
+⭐ Proficiency in database management, particularly PostgreSQL, including query optimization and schema design.
+
+⭐ Deep understanding of frontend performance optimization, including lazy loading, bundling, and caching strategies.
+
+⭐ Experience with authentication and security best practices, including OAuth, JWT, and API security.
+
+⭐ Familiarity with cloud services (AWS preferred), including Lambda, RDS, S3, and API Gateway.
+
+⭐ Proficiency with modern DevOps practices, including CI/CD, containerization (Docker), and monitoring.
+
+⭐ Strong problem-solving skills, with the ability to debug and optimize applications effectively.
+
+⭐ Passion for continuous learning and staying ahead of industry trends, contributing to a strong engineering culture.
+
+Our Benefits🙌
+Osome grows alongside you, but we already have a few perks:
+
+⭐ The opportunity to join a goal-driven startup with big ambitions
+
+⭐ An open, inclusive working environment, with founders deeply-rooted in the startup space
+
+⭐ An agile working model focused on goals and performance
+
+⭐ International environment with diverse culture
+
+⭐ Competitive remuneration package
+
+Let's connect early
+Sometimes, the best talent often isn’t looking, and that’s exactly why we want to meet you. If you’re thinking about your next move and want to be part of a company making a real impact, let’s connect.
+
+Equal Opportunity Statement
+
+At OSOME, creating a culture where individuals of all backgrounds feel comfortable really matters.
+
+Everyone who applies will receive fair consideration for employment. We do not discriminate based upon race, colour, religion, sex, sexual orientation, age, marital status, gender identity, national origin, disability, or any other applicable legally protected characteristics in the location in which the candidate is applying. We want to ensure that we represent the diversity of talent in the society we live in today.
+
+If you have any accessibility requirements that would make you more comfortable during the application and interview process, please let us know so that we can support you.

@@ -1,0 +1,304 @@
+# Master Resume Data - Enhanced with tagged variants for ATS tailoring
+
+profile:
+  name: "Nulad W. Pambudi"
+  title: "Senior Distributed Systems & Cloud Engineer"
+  email: "nuladwisnupambudi@gmail.com"
+  phone: "+62 852 1138 5794"
+  location: "Depok, Indonesia"
+  linkedin: "https://www.linkedin.com/in/nulad-pambudi"
+  github: "https://github.com/nulad"
+  website: "https://nulad.github.io/resume"
+
+  # Multiple summary variants for different role types
+  summaries:
+    default: >
+      Senior Distributed Systems & Cloud Engineer with 15+ years of experience designing,
+      building, and operating high-reliability production systems across fintech, loyalty
+      platforms, e-commerce, and B2B marketplaces. Proven track record leading cloud
+      infrastructure migrations (Azure to AWS), decomposing monoliths into 10+ independently
+      deployable microservices, and building payment systems handling hundreds of millions IDR
+      in monthly transactions. Deep expertise in Node.js, Golang, Java, PHP, and .NET with
+      hands-on production experience across AWS (Lambda, ECS, SQS, Aurora), PostgreSQL, MySQL,
+      Redis, and event-driven architectures. Experienced collaborating with distributed global
+      engineering teams across the US, UK, and Southeast Asia. Open to senior remote roles in
+      scalable cloud platforms and distributed systems.
+
+    backend: >
+      Senior Backend Engineer with 15+ years of experience building and scaling production
+      backend systems across fintech, loyalty platforms, e-commerce, and B2B marketplaces.
+      Expert in designing RESTful APIs, event-driven architectures, and high-throughput data
+      pipelines. Led monolith-to-microservices decomposition producing 10+ independently
+      deployable services, and built payment systems processing hundreds of millions IDR in
+      monthly transactions. Proficient in Node.js, Golang, Java, PHP, and .NET with deep
+      production experience in PostgreSQL, MySQL, Aurora, MongoDB, and Redis. Strong track
+      record of improving system performance, reliability, and developer velocity through
+      clean architecture and robust testing practices. Experienced collaborating with
+      distributed global engineering teams across the US, UK, and Southeast Asia.
+
+    devops: >
+      Senior Cloud & Infrastructure Engineer with 15+ years of experience architecting,
+      migrating, and operating production cloud infrastructure across fintech, loyalty
+      platforms, e-commerce, and B2B marketplaces. Led a full-scale infrastructure migration
+      from Azure to AWS spanning 10+ microservices, reducing hosting costs and improving
+      deployment reliability. Hands-on expertise in AWS (Lambda, ECS, SQS, SNS, S3, RDS,
+      Aurora, CloudFormation, CloudWatch), Docker, and Infrastructure as Code. Built and
+      standardized CI/CD pipelines using Bitbucket Pipelines, Bamboo, GitHub Actions, and
+      Serverless Framework. Experienced in reliability engineering, monitoring, and
+      performance optimization for high-traffic systems serving millions of users.
+      Collaborative team member with experience working across distributed global engineering
+      teams in the US, UK, and Southeast Asia.
+
+    fullstack: >
+      Senior Software Engineer with 15+ years of experience delivering end-to-end solutions
+      across fintech, loyalty platforms, e-commerce, and B2B marketplaces. Skilled in both
+      backend systems (Node.js, Golang, Java, PHP, .NET) and frontend development (.NET/C#
+      desktop clients, ExtJS, web portals). Led platform consolidation and modernization
+      projects, decomposed monoliths into microservices, and built payment systems handling
+      hundreds of millions IDR in monthly transactions. Production experience across AWS
+      (Lambda, ECS, SQS, Aurora), GCP, PostgreSQL, MySQL, Redis, and event-driven
+      architectures. Proven ability to own products end-to-end from design through deployment
+      and maintenance. Experienced collaborating with distributed global engineering teams
+      across the US, UK, and Southeast Asia. Open to senior remote roles building scalable
+      full-stack platforms.
+
+experience:
+  - company: "Trilogy, Inc"
+    position: "AI-first Software Engineer III"
+    duration: "Apr, 2024 &mdash; Dec, 2025"
+    location: "Austin, TX (Remote)"
+    description: "American software company headquartered in Austin, Texas."
+    bullets:
+      - text: "Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity"
+        tags: [java, migration, platform-engineering, leadership, spring]
+        alt:
+          leadership: "Led cross-functional platform consolidation initiative to unify multiple Jive community systems into a single platform, coordinating across teams to strengthen customer retention and reduce operational complexity"
+          backend: "Architected and executed platform consolidation to unify multiple Jive community systems into a single platform, designing data migration strategies and API integration points to reduce operational complexity"
+      - text: "Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and modernizing OAuth login integration to improve long-term maintainability"
+        tags: [java, security, maintenance, spring, dependency-management, oauth, authentication]
+        alt:
+          devops: "Upgraded Jive platform libraries and frameworks across various modules, remediating CVE-tracked security vulnerabilities and improving long-term maintainability of the deployment pipeline"
+          backend: "Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities through dependency updates and modernizing OAuth login integration for improved code maintainability"
+      - text: "Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance"
+        tags: [java, debugging, performance, reliability]
+        alt:
+          backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services and delivered feature enhancements that improved platform stability and system performance"
+          devops: "Resolved critical production incidents and delivered infrastructure enhancements that improved platform stability, uptime, and system performance across AWS ECS deployments"
+    tech_stack: "Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)"
+
+  - company: "PT. Global Poin Indonesia"
+    position: "Senior Backend Engineer"
+    duration: "Dec, 2019 &mdash; Jan, 2024"
+    location: "Jakarta, Indonesia"
+    description: "Loyalty and reward platform powering GetPlus, Indonesia's multi-brand loyalty program."
+    bullets:
+      - text: "Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 10+ microservices"
+        tags: [aws, azure, cloud-migration, infrastructure, devops, cost-optimization]
+        alt:
+          devops: "Led end-to-end infrastructure migration from Azure to AWS for 10+ microservices, designing the target architecture, executing the cutover plan, and achieving measurable reductions in hosting costs and deployment failures"
+          leadership: "Spearheaded cross-team infrastructure migration from Azure to AWS, coordinating stakeholders and engineering efforts to reduce hosting costs and improve deployment reliability across 10+ microservices"
+      - text: "Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability"
+        tags: [nodejs, microservices, architecture, migration, scalability]
+        alt:
+          backend: "Architected and executed monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services with clear domain boundaries for improved scalability"
+          leadership: "Drove monolith-to-microservices migration initiative, defining the decomposition strategy and guiding the team through incremental extraction of a legacy Node.js application into independently deployable services"
+      - text: "Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+        tags: [nodejs, payments, fintech, backend, reliability]
+        alt:
+          backend: "Designed, built, and maintained the back-office invoice and payment system with robust transaction handling, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+          fullstack: "Built and maintained the end-to-end back-office invoice and payment system including admin interfaces and backend APIs, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+      - text: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange"
+        tags: [nodejs, integration, fintech, api, partnerships]
+        alt:
+          backend: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), designing the API contract and building fault-tolerant exchange logic for cross-platform loyalty point exchange"
+          leadership: "Led the technical delivery of point conversion integration with BCA Rewards (major Indonesian bank), coordinating with external partners to enable cross-platform loyalty point exchange"
+      - text: "Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue"
+        tags: [nodejs, integration, e-commerce, high-throughput, revenue]
+        alt:
+          backend: "Developed high-throughput affiliate marketing integration processing tens of thousands of e-commerce transactions daily, building idempotent pipelines that generated millions in monthly revenue"
+          devops: "Developed and operated affiliate marketing integration on AWS Lambda processing tens of thousands of e-commerce transactions, ensuring reliability and observability for a pipeline generating millions in monthly revenue"
+      - text: "Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized OAuth-based authentication for all customer-facing API endpoints, improving security posture and developer velocity"
+        tags: [aws, cicd, serverless, security, devops, authentication, oauth]
+        alt:
+          devops: "Established AWS CI/CD pipelines using Bitbucket Pipelines and Serverless Framework, implementing infrastructure as code and standardized deployment workflows that improved developer velocity and release reliability"
+          backend: "Standardized OAuth-based authentication and authorization for all customer-facing API endpoints and established CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), improving security posture and developer velocity"
+    tech_stack: "Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis"
+
+  - company: "Shopee Indonesia"
+    position: "Senior Software Engineer"
+    duration: "July, 2019 &mdash; Dec 2019"
+    location: "Jakarta, Indonesia"
+    description: "Leading e-commerce marketplace platform in Southeast Asia."
+    bullets:
+      - text: "Developed infographic and calendar management features for Shopee Indonesia's growth team, serving a monthly active user base of 19 million users"
+        tags: [golang, gcp, high-traffic, e-commerce, product-development]
+        alt:
+          backend: "Developed infographic and calendar management backend services in Golang for Shopee Indonesia's growth team, serving a monthly active user base of 19 million users"
+          fullstack: "Developed infographic and calendar management features end-to-end for Shopee Indonesia's growth team, building backend APIs and frontend components serving 19 million monthly active users"
+      - text: "Diagnosed and resolved production issues to maintain platform stability across high-traffic services"
+        tags: [golang, debugging, reliability, production-support]
+        alt:
+          devops: "Diagnosed and resolved production issues across high-traffic GCP-hosted services, maintaining platform stability and uptime for Shopee Indonesia's 19M monthly active users"
+          backend: "Diagnosed and resolved production issues in Golang microservices to maintain platform stability across high-traffic services handling millions of daily requests"
+    tech_stack: "Golang, GCP, Redis"
+
+  - company: "Bizzy Indonesia"
+    position: "Software Development Engineer"
+    duration: "June, 2018 &mdash; July, 2019"
+    location: "Jakarta, Indonesia"
+    description: "B2B e-marketplace and e-procurement platform in Indonesia."
+    bullets:
+      - text: "Built pub-sub messaging systems for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times"
+        tags: [nodejs, aws, event-driven, messaging, architecture, kinesis]
+        alt:
+          backend: "Designed and built pub-sub messaging systems using AWS Kinesis for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving API response times"
+          devops: "Built pub-sub messaging infrastructure on AWS Kinesis for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving system response times"
+      - text: "Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows"
+        tags: [nodejs, microservices, backend, enterprise, product-development]
+        alt:
+          backend: "Designed and implemented a new user budget management microservice with domain-driven design principles, expanding platform capabilities for enterprise procurement workflows"
+          leadership: "Designed and implemented a new user budget management microservice from requirements gathering through deployment, expanding platform capabilities for enterprise procurement workflows"
+      - text: "Enhanced catalog management and approval management features, resolving system bugs to improve platform reliability"
+        tags: [nodejs, backend, debugging, reliability]
+        alt:
+          backend: "Enhanced catalog management and approval management features with improved data validation and error handling, resolving system bugs to improve platform reliability"
+          fullstack: "Enhanced catalog management and approval management features across backend APIs and frontend interfaces, resolving system bugs to improve platform reliability"
+    tech_stack: "Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL"
+
+  - company: "Errai Pasifik"
+    position: "Senior Software Engineer"
+    duration: "Sept, 2013 &mdash; June, 2018"
+    location: "Jakarta, Indonesia"
+    description: "Product development company partnered with LoopUp, a cloud telephony provider based in London and San Francisco."
+    bullets:
+      - text: "Owned and maintained the LoopUp Outlook Client end-to-end, serving as the primary client application for LoopUp's teleconferencing services"
+        tags: [dotnet, csharp, desktop, product-ownership, telephony]
+        alt:
+          fullstack: "Owned and maintained the LoopUp Outlook Client end-to-end, building and shipping the primary desktop client application for LoopUp's cloud teleconferencing services"
+          leadership: "Owned and maintained the LoopUp Outlook Client end-to-end as sole engineer, serving as the primary client application for LoopUp's cloud teleconferencing services used by enterprise customers"
+      - text: "Implemented SAML-based SSO authentication for LoopUp, enabling enterprise customers to use their identity providers for single sign-on access to teleconferencing services"
+        tags: [dotnet, csharp, security, authentication, oauth, saml, sso, enterprise]
+        alt:
+          backend: "Implemented SAML-based SSO authentication integration, designing the identity provider handshake and token validation flow to enable enterprise single sign-on access to LoopUp's teleconferencing services"
+          leadership: "Led implementation of SAML-based SSO authentication for LoopUp, coordinating with enterprise clients and identity provider vendors to enable single sign-on access across the platform"
+      - text: "Implemented free trial sign-up system that expanded LoopUp's market reach and increased trial-to-paid conversion"
+        tags: [dotnet, csharp, product-development, growth, conversion]
+        alt:
+          backend: "Implemented free trial sign-up system with automated provisioning and onboarding flows that expanded LoopUp's market reach and increased trial-to-paid conversion"
+          fullstack: "Implemented end-to-end free trial sign-up system including registration UI, backend provisioning, and onboarding flows that expanded LoopUp's market reach and increased trial-to-paid conversion"
+      - text: "Developed the Account Management Portal, replacing the legacy system with a modernized interface for improved user experience"
+        tags: [dotnet, csharp, web, frontend, modernization]
+        alt:
+          fullstack: "Developed the Account Management Portal end-to-end, replacing the legacy system with a modern web interface and backend APIs for improved user experience and maintainability"
+          backend: "Developed the Account Management Portal backend services and APIs, replacing the legacy system architecture for improved performance and maintainability"
+      - text: "Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, ensuring reliable release processes"
+        tags: [devops, cicd, release-management, dotnet]
+        alt:
+          devops: "Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, standardizing build configurations, automating testing, and ensuring reliable release processes"
+          leadership: "Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, establishing team-wide standards and ensuring reliable release processes across multiple product lines"
+      - text: "Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth"
+        tags: [leadership, mentoring, team-building]
+        alt:
+          leadership: "Mentored junior engineers in programming best practices and code review standards, accelerating onboarding and fostering a culture of continuous learning and team growth"
+          backend: "Mentored junior engineers in backend development best practices including clean architecture, testing, and code review, accelerating onboarding and fostering team growth"
+    tech_stack: ".NET, C#, SQL Server"
+
+  - company: "Mitrais"
+    position: "Programmer"
+    duration: "June, 2011 &mdash; August, 2013"
+    location: "Bali, Indonesia"
+    description: "Project-based software development consultancy headquartered in Bali."
+    bullets:
+      - text: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), a consolidated debt management and compliance solution used by Australian local governments"
+        tags: [dotnet, vbnet, sql-server, enterprise, government, consulting]
+        alt:
+          backend: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), building and enhancing a consolidated debt management and compliance backend used by Australian local governments"
+          fullstack: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), working across database, backend, and UI layers of a consolidated debt management and compliance solution used by Australian local governments"
+    tech_stack: ".NET, VB.NET, SQL Server"
+
+  - company: "Imtel Sinergi Utama"
+    position: "Software Developer"
+    duration: "Jan, 2011 &mdash; May, 2011"
+    location: "Jakarta, Indonesia"
+    description: "Software development outsourcing company serving Indonesian enterprises."
+    bullets:
+      - text: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines and ExtJS web frontend components"
+        tags: [dotnet, vbnet, sql-server, ssis, extjs, enterprise, etl]
+        alt:
+          backend: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines for ETL workflows and backend integrations"
+          devops: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines for automated ETL workflows and data integration"
+    tech_stack: ".NET, VB.NET, SQL Server, SSIS"
+
+  - company: "PLN"
+    position: "Software Developer (Part time)"
+    duration: "November, 2009 &mdash; June, 2010"
+    location: "Jakarta, Indonesia"
+    description: "Indonesia's state-owned electricity utility serving 200M+ customers nationwide."
+    bullets:
+      - text: "Developed the Knowledge Management Portal using SharePoint 2007, enabling centralized knowledge sharing across the organization"
+        tags: [dotnet, sharepoint, enterprise, portal, knowledge-management]
+        alt:
+          fullstack: "Developed the Knowledge Management Portal end-to-end using SharePoint 2007, designing information architecture and custom web parts to enable centralized knowledge sharing across the organization"
+          leadership: "Developed the Knowledge Management Portal using SharePoint 2007, gathering requirements from stakeholders and enabling centralized knowledge sharing across a national organization serving 200M+ customers"
+    tech_stack: ".NET, SharePoint 2007"
+
+skills:
+  - skill: "Distributed Systems & Architecture"
+    description: "Microservices, event-driven architecture, pub-sub messaging, scalable backend design, reliability engineering, monolith decomposition, REST API design"
+    tags: [architecture, backend, distributed-systems]
+
+  - skill: "Languages"
+    description: "JavaScript, Node.js, Golang, Java, PHP, C# (.NET), Python"
+    tags: [backend, programming]
+
+  - skill: "Cloud & Infrastructure"
+    description: "AWS (Lambda, ECS, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, DevOps, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code"
+    tags: [cloud, devops, infrastructure, aws]
+
+  - skill: "Databases"
+    description: "PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis"
+    tags: [backend, databases, data]
+
+  - skill: "Practices"
+    description: "Performance optimization, reliability engineering, code review, mentoring, agile delivery (Scrum, Kanban), unit testing, integration testing"
+    tags: [practices, leadership, quality]
+
+education:
+  - degree: "Master, Magister of Information Technology"
+    uni: "University of Indonesia"
+    year: "2014 &mdash; 2016"
+    summary: "Thesis on IT risk management in international startup environments. Focus on strategic alignment between organizational vision and Information Technology."
+    tags: [it-management, risk-management, strategy]
+
+  - degree: "Bachelor, Computer Science"
+    uni: "University of Indonesia"
+    year: "2005 &mdash; 2010"
+    summary: "Member of Microsoft Innovation Center, University of Indonesia."
+    tags: [computer-science, microsoft]
+
+# Tag reference for filtering
+# ---------------------------------------------------------
+# Role-type tags (for summary selection):
+#   default, backend, devops, fullstack, leadership
+#
+# Technology tags:
+#   java, spring, nodejs, golang, php, dotnet, csharp, vbnet,
+#   python, extjs, sharepoint, ssis
+#
+# Domain tags:
+#   aws, azure, gcp, cloud-migration, infrastructure, cicd,
+#   serverless, docker, microservices, event-driven, messaging,
+#   kinesis, sql-server, mongodb, redis, postgresql, mysql
+#
+# Skill/practice tags:
+#   architecture, platform-engineering, migration, security,
+#   reliability, debugging, performance, high-traffic,
+#   cost-optimization, authentication, dependency-management
+#
+# Business domain tags:
+#   fintech, payments, e-commerce, enterprise, government,
+#   telephony, loyalty, b2b, growth, revenue, partnerships
+#
+# Soft skill tags:
+#   leadership, mentoring, team-building, product-ownership,
+#   consulting, knowledge-management

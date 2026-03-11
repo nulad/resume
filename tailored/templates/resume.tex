@@ -1,0 +1,97 @@
+%% ATS-Optimized Resume Template
+%% Single column, clean text layer, standard section headers
+\documentclass[11pt,a4paper]{article}
+
+% ── Packages ──────────────────────────────────────────────
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+
+% ── Disable page numbers ─────────────────────────────────
+\pagestyle{empty}
+
+% ── Section formatting (ATS-friendly: uppercase, ruled) ──
+\titleformat{\section}
+  {\large\bfseries\uppercase}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+% ── Hyperlink styling ────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue!70!black,
+  pdfauthor={<<NAME>>},
+  pdftitle={<<NAME>> Resume}
+}
+
+% ── List styling ─────────────────────────────────────────
+\setlist[itemize]{
+  nosep,
+  left=0pt,
+  label=\textbullet,
+  itemsep=2pt,
+  parsep=0pt,
+  topsep=2pt
+}
+
+% ── Custom commands ──────────────────────────────────────
+\newcommand{\entry}[4]{%
+  \noindent\textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill \textit{#4}
+  \vspace{2pt}
+}
+
+\begin{document}
+
+% ══════════════════════════════════════════════════════════
+% HEADER
+% ══════════════════════════════════════════════════════════
+\begin{center}
+  {\LARGE\bfseries <<NAME>>} \\[4pt]
+  <<LOCATION>> \quad
+  \href{mailto:<<EMAIL>>}{<<EMAIL>>} \quad
+  <<PHONE>> \\[2pt]
+  \href{<<LINKEDIN>>}{LinkedIn} \quad
+  \href{<<GITHUB>>}{GitHub} \quad
+  \href{<<WEBSITE>>}{Portfolio}
+\end{center}
+
+% ══════════════════════════════════════════════════════════
+% SUMMARY
+% ══════════════════════════════════════════════════════════
+\section{Summary}
+<<SUMMARY>>
+
+% ══════════════════════════════════════════════════════════
+% EXPERIENCE
+% ══════════════════════════════════════════════════════════
+\section{Experience}
+
+% Pattern: Option C — bold tech line after bullets
+% The Python tailoring engine will generate entries following this pattern.
+
+<<EXPERIENCE_ENTRIES>>
+
+
+% ══════════════════════════════════════════════════════════
+% SKILLS
+% ══════════════════════════════════════════════════════════
+\section{Skills}
+<<SKILLS_ENTRIES>>
+
+% ══════════════════════════════════════════════════════════
+% EDUCATION
+% ══════════════════════════════════════════════════════════
+\section{Education}
+
+<<EDUCATION_ENTRIES>>
+
+\end{document}
