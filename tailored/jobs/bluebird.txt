@@ -1,0 +1,18 @@
+About the job
+Responsibilities:
+
+Build and maintain backend services, ensuring clean, tested, and reliable code. Participate in code reviews, improve standards, and collaborate on system architecture.
+Troubleshoot production issues, monitor system performance, and contribute to process improvements in an agile environment.
+Stay updated with latest backend technologies and participate in continuous improvement of development practices.
+Collaborate with cross-functional teams to ensure seamless system integration and performance optimization.
+
+
+Requirements
+
+Minimum 3-5 years of experience as a Backend Developer
+Strong understanding of OOP and design patterns
+Experience with Golang, ELK stack, and relational databases (MySQL, PostgreSQL)
+Skilled in building RESTful APIs and gRPC services
+Familiarity with cloud platforms (GCP, Huawei), containerization (Docker, Kubernetes), and message queues (Google Pub/Sub, RabbitMQ)
+Knowledge of agile methodologies, software lifecycle, and strong problem-solving and communication skills
+Willing to work from our Head Office in Mampang
