@@ -1,0 +1,138 @@
+Job Description
+Job Title: Software Developer
+
+Start Date: Immediate
+
+Job Type: Full-time
+
+Reports to: Management Associate
+
+ 
+
+Hey Future Figment Family Member!
+
+ 
+
+Ever dreamt of building digital products that feel as thoughtfully crafted as a heritage shophouse? Well, we did — and we’re Figment, the rebels of hospitality, making the world a more human place to live.
+
+ 
+
+Our boutique hotel-inspired homes have been called the “Picassos of Singapore’s Built Heritage” by Travel + Leisure, with features in The New York Times, Wall Street Journal, The Straits Times, and Channel NewsAsia. Over the past 35 years, we’ve welcomed more than 4,000 members from companies like Grab, BCG, and Citi.
+
+ 
+
+What Makes This Role Different:
+
+100% Remote-First: Work from home, a café, or anywhere that inspires you. We're entirely results and KPI-driven (Key Performance Indicators = measurable outcomes), not face-time driven. Note: Remote-first means self-discipline and clear communication are essential.
+
+Accelerated Growth: Staff take on significant responsibilities from day one in our hands-on scrappy startup environment. As we aggressively expand our team, you'll grow alongside us with clear progression paths and potential phantom equity eligibility.
+
+Global Conservation Mission: As stewards of Singapore's architectural heritage, we're pioneering the boutique homes concept globally—from London townhouses to Spanish Colonial homes in Intramuros, Manila, to colonial bungalows across India.
+
+ 
+
+Now, we’re building the digital backbone that powers these experiences — from internal tools to member facing platforms. We’re looking for a Software Developer who blends technical rigor with product intuition, and who believes great software should feel invisible, elegant, and human. This role is for a builder who enjoys ownership end-to-end: shaping architecture, writing clean code, collaborating cross-functionally, and continuously improving how Figment operates and scales.
+
+Key Responsibilities
+Product & Platform Development (45%)
+
+Build, maintain, and improve Figment’s internal tools and member-facing platforms.
+
+Translate product and operational requirements into scalable, maintainable code.
+
+Implement features end-to-end — from backend logic to frontend interfaces where needed.
+
+Ensure systems are reliable, secure, and performant as the business scales.
+
+Systems & Architecture (20%)
+
+Contribute to technical architecture decisions with scalability and simplicity in mind.
+
+Improve existing codebases through refactoring, documentation, and performance optimization.
+
+Design APIs, data models, and workflows that support operational efficiency.
+
+Balance speed of execution with long-term technical health.
+
+Cross-Functional Collaboration (20%)
+
+Work closely with operations, design, growth, and leadership teams to understand real-world needs.
+
+Participate in product discussions, offering technical perspectives and trade-offs.
+
+Support non-technical teammates by building tools that simplify workflows and reduce manual work.
+
+Quality, Testing & Deployment (15%)
+
+Write clean, well-tested, and well-documented code.
+
+Own deployments, monitoring, and debugging in production.
+
+Proactively identify and fix bugs, edge cases, and performance bottlenecks.
+
+Maintain high engineering standards while shipping iteratively.
+
+ 
+
+And hey, don't just take our word for it. Here's what our Figment Team has to say:
+
+Chia Chia, our Operations Maestro, spills the coffee: "Figment didn't just tweak my career; it gave it an adrenaline shot! At Figment, leadership and teamwork aren't just encouraged, they're the secret sauce. Each day felt like a carnival of positivity, and the skills and friendships I pocketed? Consider them the priceless treasures of my Figment journey!"
+
+Charlotte, the Marketing Maverick, spills the tea: "Figment blew my expectations out of the water. Forget work-life balance – we're talking about creating a lifestyle masterpiece! Open communication aren't just buzzwords here; they're the backbone of our supportive environment. Figment's leadership? Think visionaries meets your BFFs. I didn't just leave with skills; I left with my cup overflowing with fulfilment."
+
+ 
+
+This is not your average analyst role. It's a fast-paced, high impact position at the intersection of real estate, technology, and hospitality. If you thrive on turning data into deals and processes into profits, this role is for you!
+
+ 
+
+Apply now. Be part of our mission to build Singapore's premier heritage property portfolio! 🚀
+
+Salary: $ 720.00 - $ 1,000.00 Per Month
+Role: Software Developer
+Employment Type: Full time
+Desired Candidate Profile
+Core Competencies
+2–4 years of experience as a software developer or engineer
+
+Strong proficiency in at least one modern backend language/framework (e.g. Node.js, Python, Ruby, etc.)
+
+Comfortable working with databases, APIs, and cloud infrastructure
+
+Strong problem-solving skills and attention to detail
+
+Ability to work independently while collaborating closely with a small team
+
+Interest in building products for real humans, not just abstract users
+
+Full-stack development experience, including external API integrations; experience in technical architecture design is a plus.
+
+Implement AI solutions that integrate with existing business systems to enhance functionality and user interaction.
+
+Stay up to date with advancements by researching and implementing the latest developments in AI and other frameworks
+
+Success Metrics / KPIs
+Features shipped on time and aligned with product requirements
+
+System reliability (uptime, error rates, incident frequency)
+
+Code quality metrics (test coverage, review feedback, maintainability)
+
+Reduction in manual or operational overhead through tooling
+
+Speed of iteration (cycle time from idea to deployment)
+
+Internal stakeholder satisfaction with tools and platforms
+
+Cultural Fit / Values
+Believes software should serve people, not the other way around
+
+Obsessed with clarity, simplicity, and thoughtful execution
+
+Comfortable working in a fast-moving, low-bureaucracy environment
+
+Takes pride in clean code and quiet excellence
+
+Thinks in both systems diagrams and user journeys
+
+Curious, humble, and motivated by building something meaningful from the ground up

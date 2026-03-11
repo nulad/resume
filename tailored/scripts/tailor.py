@@ -72,6 +72,12 @@ STOP_WORDS = {
     "years", "year", "minimum", "responsibilities", "requirements",
     "qualifications", "benefits", "salary", "company", "position",
     "based", "ensure", "ensuring", "best", "development", "practices",
+    "building", "build", "built", "technical", "software", "product",
+    "tools", "systems", "system", "code", "features", "data",
+    "design", "support", "process", "processes", "implement",
+    "maintain", "improve", "create", "make", "like", "take",
+    "day", "don", "time", "high", "key", "real", "set",
+    "job", "my", "us", "one", "get", "two", "may", "let",
 }
 
 # Technology and skill keywords to boost when found in JD
@@ -401,6 +407,10 @@ def _report_skills_gap(jd_keywords, data):
         for kw, score in gaps:
             print(f"   MISSING: {kw} (JD weight: {score})")
         print("   → Consider adding these to master_data.yml or writing bullet variants")
+    elif len(jd_tech) < 3:
+        print(f"\n⚠  Low tech signal — only {len(jd_tech)} tech keywords found in JD")
+        print("   This JD is light on specific technologies. Tailoring will be less effective.")
+        print("   → Consider using --profile to manually set the best angle")
     else:
         print("\n✓  No skills gap — all JD tech keywords found in resume")
 
@@ -428,9 +438,19 @@ def tailor_resume(master_data_path, jd_path, template_path, output_path, profile
         print(f"Auto-detected profile: {profile}")
     print(f"Using profile: {profile}")
 
-    # Print top keywords for transparency
-    print("\nTop JD keywords:")
-    for kw, score in jd_keywords.most_common(15):
+    # Print top keywords for transparency (split into tech vs other)
+    tech_kws = [(kw, s) for kw, s in jd_keywords.most_common(30) if kw in TECH_KEYWORDS]
+    other_kws = [(kw, s) for kw, s in jd_keywords.most_common(30) if kw not in TECH_KEYWORDS]
+
+    print("\nTop tech keywords (drive bullet selection):")
+    if tech_kws:
+        for kw, score in tech_kws[:10]:
+            print(f"  {kw}: {score}")
+    else:
+        print("  (none found)")
+
+    print("\nOther frequent terms:")
+    for kw, score in other_kws[:8]:
         print(f"  {kw}: {score}")
 
     # Skills gap analysis
