@@ -1,0 +1,117 @@
+About the job
+About the Company
+
+
+
+
+
+Join GoTu, a dynamic, growth-stage company that's revolutionizing the dental industry. Our cutting-edge on-demand web and mobile platform seamlessly connects licensed dental professionals with dental offices, meeting both temporary and full-time staffing needs. At GoTu, innovation meets meaningful relationships to empower practices and professionals alike.
+
+
+
+
+
+About the Role
+
+
+
+
+
+We’re seeking a Senior Backend Engineer for our fast-growing business. As a key member of the engineering team, you’ll contribute towards the system design and backend services. This is a high-impact role for someone who thrives in fast-paced, collaborative environments and is passionate about building secure, scalable systems that power meaningful user experiences.
+
+
+
+
+
+Responsibilities
+
+
+
+
+
+Design and implement micro-services to ensure scalable and maintainable systems
+Write, test, and maintain production-quality code on a daily basis
+Design and optimize database schemas, queries, and data flow patterns
+Ensure system reliability, monitoring, and incident response capabilities
+Drive performance optimization and scalability for distributed systems and APIs
+Research and implement innovative solutions to challenging engineering problems
+Contribute to and uphold strong engineering culture, technical documentation, and collaborative problem-solving
+
+
+ 
+
+Qualifications
+
+
+
+
+
+5- 10 years of software development experience focused on backend systems
+Experience building and maintaining scalable backend services for distributed applications
+Familiarity with CI/CD pipelines and DevOps practices
+Good communication skills and ability to work with stakeholders across teams
+Experience in fast-paced, growth-oriented environments is a plus
+
+
+ 
+
+Required Skills
+
+
+
+
+
+Strong experience in backend development with proficiency in Go and Node.js
+Hands-on experience with message queuing systems (RabbitMQ, Kafka, etc.)
+Solid understanding of PostgreSQL and MongoDB, including query optimization and schema design
+Experience with AWS services, containerization (Docker), and Kubernetes deployment
+Problem-solving mindset with ability to tackle complex technical challenges
+Effective communicator who works well in collaborative, cross-functional teams
+Eager to contribute to code reviews, documentation, and engineering best practices
+Understanding of micro-services architecture and RESTful API development
+
+
+ 
+
+Preferred Skills
+
+
+
+
+
+Experience in fast-paced, growth-oriented environments is a plus
+
+
+ 
+
+Pay range and compensation package
+
+
+
+
+
+Tech Stack: Node.js, Go, PostgreSQL, MongoDB, RabbitMQ, Kafka, AWS, EKS
+
+
+
+
+
+Learn More https://joingotu.com/
+
+
+
+
+
+Equal Opportunity Statement
+
+
+
+
+
+GoTu Technology, Inc. is an equal-opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.
+
+
+
+
+
+If you are passionate about driving enterprise growth and building meaningful relationships, we invite you to apply and be part of our innovative team.

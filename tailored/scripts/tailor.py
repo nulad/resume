@@ -156,9 +156,14 @@ def detect_profile(jd_keywords, jd_text):
                 phrase_scores[profile] += count * 10  # Strong signal
 
     # If any profile has clear phrase matches, use it
-    best_phrase = max(phrase_scores, key=phrase_scores.get)
-    if phrase_scores[best_phrase] > 0:
-        return best_phrase
+    # Priority order for tie-breaking: backend > fullstack > devops
+    # (more specific role phrases should win over generic mentions)
+    priority = ["backend", "fullstack", "devops"]
+    best_score = max(phrase_scores.values())
+    if best_score > 0:
+        for profile in priority:
+            if phrase_scores.get(profile, 0) == best_score:
+                return profile
 
     # Phase 2: Fallback to keyword scoring from full JD
     profile_signals = {
@@ -332,7 +337,7 @@ SYNONYM_GROUPS = [
     {"vue", "vuejs", "vue.js"},
     {"mongodb", "mongo"},
     {"elasticsearch", "elastic"},
-    {"rabbitmq", "rabbit"},
+    {"sqs", "kafka", "rabbitmq", "rabbit", "kinesis", "message queue", "message broker"},
     {"amazon web services", "aws"},
     {"google cloud platform", "gcp"},
     {"devops", "dev ops"},
