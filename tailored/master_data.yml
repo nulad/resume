@@ -134,7 +134,7 @@ experience:
         tags: [golang, gcp, high-traffic, e-commerce, product-development]
         alt:
           backend: "Developed infographic and calendar management backend services in Golang for Shopee Indonesia's growth team, serving a monthly active user base of 19 million users"
-          fullstack: "Developed infographic and calendar management features end-to-end for Shopee Indonesia's growth team, building backend APIs and frontend components serving 19 million monthly active users"
+          fullstack: "Developed infographic and calendar management features end-to-end for Shopee Indonesia's growth team, building backend APIs serving 19 million monthly active users"
       - text: "Diagnosed and resolved production issues to maintain platform stability across high-traffic services"
         tags: [golang, debugging, reliability, production-support]
         alt:
@@ -162,7 +162,7 @@ experience:
         tags: [nodejs, backend, debugging, reliability]
         alt:
           backend: "Enhanced catalog management and approval management features with improved data validation and error handling, resolving system bugs to improve platform reliability"
-          fullstack: "Enhanced catalog management and approval management features across backend APIs and frontend interfaces, resolving system bugs to improve platform reliability"
+          fullstack: "Enhanced catalog management and approval management features across backend APIs, resolving system bugs to improve platform reliability"
     tech_stack: "Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL"
 
   - company: "Errai Pasifik"
