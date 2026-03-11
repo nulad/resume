@@ -13,4 +13,4 @@ RUN apt-get update && \
 
 WORKDIR /resume
 
-ENTRYPOINT ["pdflatex"]
+ENTRYPOINT ["lualatex"]

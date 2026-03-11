@@ -4,6 +4,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 IMAGE_NAME="resume-builder"
 TEX_FILE="${1:-output/resume.tex}"
+LATEX_ENGINE="${LATEX_ENGINE:-lualatex}"
 
 # Check Docker is available
 if ! command -v docker &>/dev/null; then
@@ -21,8 +22,9 @@ fi
 mkdir -p "$SCRIPT_DIR/output"
 
 # Run pdflatex inside the container
-echo "Compiling $TEX_FILE..."
+echo "Compiling $TEX_FILE with $LATEX_ENGINE..."
 docker run --rm \
+    --entrypoint "$LATEX_ENGINE" \
     -v "$SCRIPT_DIR":/resume \
     "$IMAGE_NAME" \
     -output-directory=output \
