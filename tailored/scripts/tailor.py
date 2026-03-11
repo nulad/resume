@@ -325,7 +325,7 @@ def render_education_entries(education):
 # it covers all terms in that group for gap analysis purposes.
 SYNONYM_GROUPS = [
     {"javascript", "node.js", "nodejs", "node", "js"},
-    {"typescript", "ts"},
+    {"typescript"},
     {"golang", "go"},
     {"postgresql", "postgres"},
     {"c#", "csharp", ".net", "dotnet"},
@@ -373,13 +373,20 @@ def _collect_resume_text(data):
     return " ".join(parts).lower()
 
 
+def _word_in_text(word, text):
+    """Check if word appears as a whole word (not substring) in text."""
+    # Use word boundary matching to avoid 'ts' matching 'struts'
+    pattern = r'(?<![a-z0-9.])' + re.escape(word) + r'(?![a-z0-9])'
+    return bool(re.search(pattern, text))
+
+
 def _has_synonym_in_text(keyword, resume_text):
     """Check if keyword or any of its synonyms appear in the resume text."""
-    if keyword in resume_text:
+    if _word_in_text(keyword, resume_text):
         return True
     group = _find_synonym_group(keyword)
     if group:
-        return any(syn in resume_text for syn in group)
+        return any(_word_in_text(syn, resume_text) for syn in group)
     return False
 
 
@@ -395,9 +402,9 @@ def _report_skills_gap(jd_keywords, data):
     for kw in sorted(jd_tech, key=lambda k: jd_keywords[k], reverse=True):
         if _has_synonym_in_text(kw, resume_text):
             # Check if covered by synonym (not direct match)
-            if kw not in resume_text:
+            if not _word_in_text(kw, resume_text):
                 group = _find_synonym_group(kw)
-                match = next((s for s in group if s in resume_text), None)
+                match = next((s for s in group if _word_in_text(s, resume_text)), None)
                 covered.append((kw, match))
         else:
             gaps.append((kw, jd_keywords[kw]))

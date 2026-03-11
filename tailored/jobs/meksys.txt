@@ -1,0 +1,35 @@
+Do you want to build the next great consulting firm in Southeast Asia?
+
+We’re looking for engineers who want to build products that change how enterprises operate and serve their customers. You’ll be responsible for ensuring that our client’s products are enterprise ready, and for developing processes and talent that enable us to scale, develop, and iterate at lightning fast speeds.
+
+
+
+Key Responsibilities:
+
+
+
+Foster a culture of excellence, customer obsession, velocity, and boldness.
+Write and test production code, working across the full stack and seamlessly connecting the front and back end.
+Build on our technical vision. Lead implementation of multiple complex projects.
+Continuously iterate on our engineering processes, tools, and systems that allow us to scale the code base, productivity, and the team.
+Understand and refine the scope of incoming projects to ensure deliverables are built to an enterprise standard
+Review code developed by other developers and provide feedback to ensure adherence to best practices (e.g., style guidelines, git workflow, accuracy, testability, and efficiency).
+Troubleshoot and triage issues and debug/track/resolve by analyzing the sources of issues and impact on service operations and quality.
+Influence technical strategy and roadmap through technical and non-technical insight.
+Mentor junior team members in career development.
+Improve and develop existing documentation.
+
+
+Basic Qualifications:
+
+
+
+Bachelor's degree in computer science, Computer Engineering, related technical field, or equivalent experience.
+Strong knowledge and production code experience with technologies like Vue.js, Typescript, Node, Nest.js, PostgreSQL, AWS, and testing suites like Jest / Playwright.
+Strong Computer Science fundamentals in object-oriented design, data structures, algorithm design, problem solving, and complexity analysis
+Experience building maintainable and testable code bases, including API design and unit and integration testing techniques
+3+ years of experience testing, maintaining, or launching software
+1+ years of experience with software design and architecture
+Experience building CI/CD pipelines from end to end
+Ship code very quickly and accurately
+Fluency in English is required
