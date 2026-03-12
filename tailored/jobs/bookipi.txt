@@ -1,0 +1,28 @@
+Senior Full Stack Developer
+Bookipi is on the hunt for a Senior Full-stack (MERN) Developer with a strong background in architecture and AWS.  In this role, you’ll design, develop, and maintain our web-based and mobile applications, ensuring they are scalable, reliable, and optimized for peak performance.
+
+Having grown 10x in the past year, Bookipi needs your expertise to continue scaling successfully.  As a Remote First company, we offer the flexibility of full Work from Home, empowering you to make a significant impact from anywhere in the world. 🏡
+
+What you will do:
+
+Innovate & Develop: Collaborate with teams to design and deploy scalable MERN stack applications.
+Architect & Enhance: Lead architectural design and feature implementation, adhering to best practices.
+Optimize & Maintain: Develop robust APIs, integrate third-party services, and ensure high performance.
+Streamline & Automate: Implement DevOps practices, manage AWS infrastructure, and enhance CI/CD pipelines.
+What are we looking:
+
+Proven Expertise: 7+ years in MERN stack development with focus on architecture, DevOps, and AWS.
+Technical Proficiency: Strong skills in JavaScript, React.js, Node.js, MongoDB, and AWS services.
+DevOps & Cloud Mastery: Extensive experience with AWS, microservices, Docker, Kubernetes, and payment gateways like Stripe.
+Server Management: Demonstrated experience in managing and maintaining server infrastructure.
+Bring your Full-stack developer expertise to an environment where you can make a meaningful impact on user experience.  Embrace an innovative and proactive approach with strong team support, independently crafting efficient code while sharing your contributions to benefit our users.  Excellent communication skills with a diverse team are essential. 🌟
+
+Join us and be part of a dynamic team that’s transforming the future of web-based and mobile applications! 💻✨
+
+Excellence is having more impact by doing less. 
+
+Tim Lee, Founder & CEO Bookipi
+
+Job Category: Software Development
+Job Type: Full Time
+Job Location: Remote

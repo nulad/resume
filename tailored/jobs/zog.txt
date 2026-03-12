@@ -1,0 +1,26 @@
+Product Engineer (Backend - Go, Node.js, Phyton)
+Responsibilities
+Execute as an engineer with a pragmatic focus on ROI to deliver the product.
+Think about and build a deep understanding of the product’s value to the clients and users.
+Communicate and work cross functionally with the product team.
+Understand technical constraints, resources and opportunities, and effectively communicate ideas and concerns to the team.
+Estimate and prioritise software requirements.
+Requirements
+Excellent problem solving skills.
+Passion for engineering as a craftsmanship with a mindset of continuous growth and learning about everything related to technology.
+Proficiency in JavaScript, TypeScript, Git and Unix-based systems.
+Experience in developing RESTful web services using Node.js and related web frameworks such as Fastify, Express, Koa or Hapi.
+Experience with testing frameworks such as Jest, Tap, Mocha or Chai.
+Experience in SQL and NoSQL databases such as Postgres and MongoDB respectively.
+Understanding of backend systems and its interactions with the frontend.
+Fluent in English or Indonesian.
+Nice to haves
+Good verbal communication skills.
+Experience in working in a remote, agile team environment.
+Experience in writing efficient and testable backend code.
+Experience with non-RESTful web services such as gRPC or GraphQL.
+Experience with Nx or other build tools.
+Familiarity with commonly-used backend languages such as Python, Ruby or Go.
+Understanding of cloud platforms and services .
+Understanding of containerisation and CI/CD pipelines for web applications.
+Involvement in open-source projects. Share with us your public contributions!

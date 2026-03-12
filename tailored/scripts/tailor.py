@@ -337,7 +337,7 @@ SYNONYM_GROUPS = [
     {"react", "reactjs", "react.js"},
     {"angular", "angularjs"},
     {"vue", "vuejs", "vue.js"},
-    {"mongodb", "mongo"},
+    {"mongodb", "mongo", "nosql", "redis", "dynamodb"},
     {"elasticsearch", "elastic", "elk", "logstash", "kibana",
      "cloudwatch", "grafana", "prometheus", "datadog", "splunk"},
     {"sqs", "kafka", "rabbitmq", "rabbit", "kinesis", "message queue", "message broker"},
