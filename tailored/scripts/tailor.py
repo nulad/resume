@@ -85,8 +85,9 @@ TECH_KEYWORDS = {
     "java", "spring", "node", "nodejs", "node.js", "golang", "go",
     "python", "php", "dotnet", ".net", "c#", "csharp", "typescript",
     "javascript", "react", "angular", "vue", "docker", "kubernetes",
-    "k8s", "aws", "azure", "gcp", "lambda", "ecs", "sqs", "sns",
+    "k8s", "aws", "azure", "gcp", "lambda", "ecs", "ec2", "sqs", "sns",
     "s3", "rds", "aurora", "cloudformation", "cloudwatch", "terraform",
+    "express", "express.js", "expressjs", "stripe", "payment",
     "microservices", "microservice", "api", "rest", "restful", "graphql",
     "postgresql", "postgres", "mysql", "mongodb", "redis", "sql",
     "nosql", "dynamodb", "elasticsearch", "kafka", "rabbitmq", "kinesis",
@@ -327,6 +328,7 @@ def render_education_entries(education):
 # it covers all terms in that group for gap analysis purposes.
 SYNONYM_GROUPS = [
     {"javascript", "node.js", "nodejs", "node", "js"},
+    {"express", "express.js", "expressjs"},
     {"typescript"},
     {"golang", "go"},
     {"postgresql", "postgres"},

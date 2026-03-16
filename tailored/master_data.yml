@@ -25,16 +25,16 @@ profile:
       scalable cloud platforms and distributed systems.
 
     backend: >
-      Senior Backend Engineer with 15+ years of experience building and scaling production
-      backend systems across fintech, loyalty platforms, e-commerce, and B2B marketplaces.
-      Expert in designing RESTful APIs, event-driven architectures, and high-throughput data
-      pipelines. Led monolith-to-microservices decomposition producing 10+ independently
-      deployable services, and built payment systems processing hundreds of millions IDR in
-      monthly transactions. Proficient in Node.js, Golang, Java, PHP, and .NET with deep
-      production experience in PostgreSQL, MySQL, Aurora, MongoDB, and Redis. Strong track
-      record of improving system performance, reliability, and developer velocity through
-      clean architecture and robust testing practices. Experienced collaborating with
-      distributed global engineering teams across the US, UK, and Southeast Asia.
+      Senior Backend Engineer with 15+ years of experience building and scaling secure,
+      high-performance backend systems across fintech, loyalty platforms, e-commerce, and B2B
+      marketplaces. Expert in designing RESTful APIs, optimized database schemas, and
+      third-party service integrations. Led monolith-to-microservices decomposition producing
+      10+ independently deployable services, and built payment systems processing hundreds of
+      millions IDR in monthly transactions. Proficient in Node.js, Golang, Java, PHP, and .NET
+      with deep production experience in PostgreSQL, MySQL, Aurora, MongoDB, and Redis.
+      Implemented secure authentication and authorization mechanisms including OAuth and
+      SAML SSO across multiple platforms. Experienced collaborating with distributed global
+      engineering teams across the US, UK, and Southeast Asia.
 
     devops: >
       Senior Cloud & Infrastructure Engineer with 15+ years of experience architecting,
@@ -84,7 +84,7 @@ experience:
         alt:
           backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services and delivered feature enhancements that improved platform stability and system performance"
           devops: "Resolved critical production incidents and delivered infrastructure enhancements that improved platform stability, uptime, and system performance across AWS ECS deployments"
-    tech_stack: "Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)"
+    tech_stack: "Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, EC2, CloudFormation, S3)"
 
   - company: "PT. Global Poin Indonesia"
     position: "Senior Backend Engineer"
@@ -102,11 +102,11 @@ experience:
         alt:
           backend: "Architected and executed monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services with clear domain boundaries for improved scalability"
           leadership: "Drove monolith-to-microservices migration initiative, defining the decomposition strategy and guiding the team through incremental extraction of a legacy Node.js application into independently deployable services"
-      - text: "Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
-        tags: [nodejs, payments, fintech, backend, reliability]
+      - text: "Built and maintained the back-office invoice and payment system integrated with BCA payment gateway, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+        tags: [nodejs, payments, fintech, backend, reliability, api, security, database, performance, payment-gateway]
         alt:
-          backend: "Designed, built, and maintained the back-office invoice and payment system with robust transaction handling, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
-          fullstack: "Built and maintained the end-to-end back-office invoice and payment system including admin interfaces and backend APIs, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+          backend: "Designed and built secure payment APIs integrated with BCA payment gateway and optimized database schemas for the back-office invoice and payment system, processing hundreds of millions IDR in monthly disbursements to 90% of GetPlus vendors"
+          fullstack: "Built and maintained the end-to-end back-office invoice and payment system integrated with BCA payment gateway, including admin interfaces and backend APIs, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
       - text: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange"
         tags: [nodejs, integration, fintech, api, partnerships]
         alt:
@@ -122,7 +122,7 @@ experience:
         alt:
           devops: "Established AWS CI/CD pipelines using Bitbucket Pipelines and Serverless Framework, implementing infrastructure as code and standardized deployment workflows that improved developer velocity and release reliability"
           backend: "Standardized OAuth-based authentication and authorization for all customer-facing API endpoints and established CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), improving security posture and developer velocity"
-    tech_stack: "Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis"
+    tech_stack: "Node.js, Express.js, PHP, AWS (Lambda, SQS, S3, CloudWatch, RDS), Aurora MySQL, Redis"
 
   - company: "Shopee Indonesia"
     position: "Senior Software Engineer"
@@ -163,7 +163,7 @@ experience:
         alt:
           backend: "Enhanced catalog management and approval management features with improved data validation and error handling, resolving system bugs to improve platform reliability"
           fullstack: "Enhanced catalog management and approval management features across backend APIs, resolving system bugs to improve platform reliability"
-    tech_stack: "Node.js, AWS (Lambda, Kinesis), MongoDB, MySQL"
+    tech_stack: "Node.js, Express.js, AWS (Lambda, Kinesis), MongoDB, MySQL"
 
   - company: "Errai Pasifik"
     position: "Senior Software Engineer"
@@ -247,13 +247,13 @@ skills:
     description: "Microservices, event-driven architecture, pub-sub messaging, scalable backend design, reliability engineering, monolith decomposition, REST API design"
     tags: [architecture, backend, distributed-systems]
 
-  - skill: "Languages"
-    description: "JavaScript, Node.js, Golang, Java, PHP, C# (.NET), Python"
-    tags: [backend, programming]
+  - skill: "Languages & Frameworks"
+    description: "JavaScript, Node.js, Express.js, Golang, Java, PHP, C# (.NET), Python"
+    tags: [backend, programming, frameworks]
 
   - skill: "Cloud & Infrastructure"
-    description: "AWS (Lambda, ECS, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, DevOps, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code"
-    tags: [cloud, devops, infrastructure, aws]
+    description: "AWS (Lambda, ECS, EC2, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, Kubernetes, DevOps, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code"
+    tags: [cloud, devops, infrastructure, aws, kubernetes]
 
   - skill: "Databases"
     description: "PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis"
