@@ -10,6 +10,15 @@ profile:
   github: "https://github.com/nulad"
   website: "https://nulad.github.io/resume"
 
+  # Language list — tailor.py reorders based on JD keyword scores
+  languages:
+    - { name: "Node.js", keywords: ["nodejs", "node.js", "node", "javascript"] }
+    - { name: "Golang", keywords: ["golang", "go"] }
+    - { name: "Java", keywords: ["java", "spring"] }
+    - { name: "PHP", keywords: ["php"] }
+    - { name: "C# (.NET)", keywords: ["c#", "csharp", ".net", "dotnet"] }
+    - { name: "Python", keywords: ["python", "django", "flask"] }
+
   # Multiple summary variants for different role types
   summaries:
     default: >
@@ -18,7 +27,7 @@ profile:
       platforms, e-commerce, and B2B marketplaces. Proven track record leading cloud
       infrastructure migrations (Azure to AWS), decomposing monoliths into 10+ independently
       deployable microservices, and building payment systems handling hundreds of millions IDR
-      in monthly transactions. Deep expertise in Node.js, Golang, Java, PHP, and .NET with
+      in monthly transactions. Deep expertise in <<LANGUAGES>> with
       hands-on production experience across AWS (Lambda, ECS, SQS, Aurora), PostgreSQL, MySQL,
       Redis, and event-driven architectures. Experienced collaborating with distributed global
       engineering teams across the US, UK, and Southeast Asia. Open to senior remote roles in
@@ -30,7 +39,7 @@ profile:
       marketplaces. Expert in designing RESTful APIs, optimized database schemas, and
       third-party service integrations. Led monolith-to-microservices decomposition producing
       10+ independently deployable services, and built payment systems processing hundreds of
-      millions IDR in monthly transactions. Proficient in Node.js, Golang, Java, PHP, and .NET
+      millions IDR in monthly transactions. Proficient in <<LANGUAGES>>
       with deep production experience in PostgreSQL, MySQL, Aurora, MongoDB, and Redis.
       Implemented secure authentication and authorization mechanisms including OAuth and
       SAML SSO across multiple platforms. Experienced collaborating with distributed global
@@ -52,7 +61,7 @@ profile:
     fullstack: >
       Senior Software Engineer with 15+ years of experience delivering end-to-end solutions
       across fintech, loyalty platforms, e-commerce, and B2B marketplaces. Skilled in both
-      backend systems (Node.js, Golang, Java, PHP, .NET) and frontend development (.NET/C#
+      backend systems (<<LANGUAGES>>) and frontend development (.NET/C#
       desktop clients, ExtJS, web portals). Led platform consolidation and modernization
       projects, decomposed monoliths into microservices, and built payment systems handling
       hundreds of millions IDR in monthly transactions. Production experience across AWS
@@ -84,7 +93,12 @@ experience:
         alt:
           backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services and delivered feature enhancements that improved platform stability and system performance"
           devops: "Resolved critical production incidents and delivered infrastructure enhancements that improved platform stability, uptime, and system performance across AWS ECS deployments"
-    tech_stack: "Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, EC2, CloudFormation, S3)"
+      - text: "Built Python CLI tooling to automate the end-to-end Jive platform migration across 50+ instances, orchestrating data migration, CloudFormation deployments, S3 bucket transfers, and post-migration file validation"
+        tags: [python, cli, migration, tooling, automation, aws, cloudformation, s3]
+        alt:
+          backend: "Developed Python CLI tooling to automate the end-to-end Jive platform migration pipeline across 50+ instances, orchestrating data migration, CloudFormation deployments, S3 bucket transfers, and post-migration validation"
+          devops: "Engineered Python CLI tooling to automate the end-to-end Jive migration workflow across 50+ instances, orchestrating CloudFormation deployments, S3 bucket transfers, data migration, and post-migration file validation to minimize manual intervention"
+    tech_stack: "Java, Spring Security, Apache Struts 2, Python, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, EC2, CloudFormation, S3)"
 
   - company: "PT. Global Poin Indonesia"
     position: "Senior Backend Engineer"
@@ -117,11 +131,11 @@ experience:
         alt:
           backend: "Developed high-throughput affiliate marketing integration processing tens of thousands of e-commerce transactions daily, building idempotent pipelines that generated millions in monthly revenue"
           devops: "Developed and operated affiliate marketing integration on AWS Lambda processing tens of thousands of e-commerce transactions, ensuring reliability and observability for a pipeline generating millions in monthly revenue"
-      - text: "Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized OAuth-based authentication for all customer-facing API endpoints, improving security posture and developer velocity"
-        tags: [aws, cicd, serverless, security, devops, authentication, oauth]
+      - text: "Established coding standards, AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), and standardized OAuth-based authentication for all customer-facing API endpoints, improving security posture and developer velocity"
+        tags: [aws, cicd, serverless, security, devops, authentication, oauth, coding-standards]
         alt:
-          devops: "Established AWS CI/CD pipelines using Bitbucket Pipelines and Serverless Framework, implementing infrastructure as code and standardized deployment workflows that improved developer velocity and release reliability"
-          backend: "Standardized OAuth-based authentication and authorization for all customer-facing API endpoints and established CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), improving security posture and developer velocity"
+          devops: "Established coding standards and AWS CI/CD pipelines using Bitbucket Pipelines and Serverless Framework, implementing infrastructure as code and standardized deployment workflows that improved developer velocity and release reliability"
+          backend: "Established coding standards, standardized OAuth-based authentication and authorization for all customer-facing API endpoints, and set up CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), improving security posture and developer velocity"
     tech_stack: "Node.js, Express.js, PHP, AWS (Lambda, SQS, S3, CloudWatch, RDS), Aurora MySQL, Redis"
 
   - company: "Shopee Indonesia"
@@ -196,12 +210,12 @@ experience:
         alt:
           devops: "Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, standardizing build configurations, automating testing, and ensuring reliable release processes"
           leadership: "Managed CI/CD build and deployment pipelines for all Jakarta-based team projects, establishing team-wide standards and ensuring reliable release processes across multiple product lines"
-      - text: "Mentored junior engineers in programming best practices, accelerating onboarding and fostering team growth"
-        tags: [leadership, mentoring, team-building]
+      - text: "Set coding standards and guided junior engineers through code reviews and programming best practices, accelerating onboarding and fostering team growth"
+        tags: [leadership, mentoring, team-building, code-review, coding-standards]
         alt:
-          leadership: "Mentored junior engineers in programming best practices and code review standards, accelerating onboarding and fostering a culture of continuous learning and team growth"
-          backend: "Mentored junior engineers in backend development best practices including clean architecture, testing, and code review, accelerating onboarding and fostering team growth"
-    tech_stack: ".NET, C#, SQL Server"
+          leadership: "Set coding standards and guided junior engineers through code reviews and programming best practices, establishing a culture of continuous learning and fostering team growth"
+          backend: "Set coding standards and guided junior engineers in backend development best practices including clean architecture, testing, and code review, accelerating onboarding and fostering team growth"
+    tech_stack: ".NET, C#, MSSQL"
 
   - company: "Mitrais"
     position: "Programmer"
@@ -214,7 +228,7 @@ experience:
         alt:
           backend: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), building and enhancing a consolidated debt management and compliance backend used by Australian local governments"
           fullstack: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), working across database, backend, and UI layers of a consolidated debt management and compliance solution used by Australian local governments"
-    tech_stack: ".NET, VB.NET, SQL Server"
+    tech_stack: ".NET, VB.NET, MSSQL"
 
   - company: "Imtel Sinergi Utama"
     position: "Software Developer"
@@ -256,7 +270,7 @@ skills:
     tags: [cloud, devops, infrastructure, aws, kubernetes]
 
   - skill: "Databases"
-    description: "PostgreSQL, MySQL, Aurora MySQL, SQL Server, MongoDB, Redis"
+    description: "PostgreSQL, MySQL, Aurora MySQL, MSSQL, MongoDB, Redis"
     tags: [backend, databases, data]
 
   - skill: "Practices"

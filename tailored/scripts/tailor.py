@@ -432,6 +432,42 @@ def _report_skills_gap(jd_keywords, data):
         print("\n✓  No skills gap — all JD tech keywords found in resume")
 
 
+# ── Language sorting ─────────────────────────────────────
+
+def sort_languages_by_jd(languages, jd_keywords):
+    """Sort language list by relevance to JD and format as a human-readable string.
+
+    Args:
+        languages: list of dicts with 'name' and 'keywords' fields, e.g.:
+            [{"name": "Python", "keywords": ["python", "django", "flask"]},
+             {"name": "C# (.NET)", "keywords": ["c#", "csharp", ".net", "dotnet"]}]
+        jd_keywords: Counter of {keyword: score} extracted from the JD
+
+    Returns:
+        A formatted string like "Python, C# (.NET), Java, Node.js, Golang, and PHP"
+        (Oxford comma before "and" for the last item)
+    """
+    # Score each language by summing JD keyword weights for its keywords
+    scored = []
+    for lang in languages:
+        score = sum(jd_keywords.get(kw.lower(), 0) for kw in lang.get("keywords", []))
+        scored.append((score, lang["name"]))
+
+    # Sort by score descending, then alphabetically for ties
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    names = [name for _, name in scored]
+
+    # Format with Oxford comma
+    if len(names) == 0:
+        return ""
+    elif len(names) == 1:
+        return names[0]
+    elif len(names) == 2:
+        return f"{names[0]} and {names[1]}"
+    else:
+        return ", ".join(names[:-1]) + ", and " + names[-1]
+
+
 # ── Main pipeline ────────────────────────────────────────
 
 def tailor_resume(master_data_path, jd_path, template_path, output_path, profile="auto"):
@@ -473,10 +509,12 @@ def tailor_resume(master_data_path, jd_path, template_path, output_path, profile
     # Skills gap analysis
     _report_skills_gap(jd_keywords, data)
 
-    # Select summary
+    # Select summary and substitute dynamic language list
     prof = data["profile"]
     summaries = prof.get("summaries", {})
     summary = summaries.get(profile, summaries.get("default", ""))
+    languages_sorted = sort_languages_by_jd(prof.get("languages", []), jd_keywords)
+    summary = summary.replace("<<LANGUAGES>>", languages_sorted)
 
     # Render sections
     experience_tex = render_experience_entries(
