@@ -290,6 +290,10 @@ education:
     summary: "Member of Microsoft Innovation Center, University of Indonesia."
     tags: [computer-science, microsoft]
 
+spoken_languages:
+  - { language: "English", proficiency: "Fluent" }
+  - { language: "Bahasa Indonesia", proficiency: "Native" }
+
 # Tag reference for filtering
 # ---------------------------------------------------------
 # Role-type tags (for summary selection):

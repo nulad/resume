@@ -323,6 +323,17 @@ def render_education_entries(education):
     return "\n\n\\vspace{6pt}\n\n".join(entries)
 
 
+def render_spoken_languages(spoken_languages):
+    """Render spoken languages section as LaTeX."""
+    if not spoken_languages:
+        return ""
+    items = ", ".join(
+        f"{escape_latex(lang['language'])} ({escape_latex(lang['proficiency'])})"
+        for lang in spoken_languages
+    )
+    return f"\\section{{Languages}}\n{items}"
+
+
 # ── Synonym mapping ──────────────────────────────────────
 # Maps equivalent tech terms. If the resume contains any term in a group,
 # it covers all terms in that group for gap analysis purposes.
@@ -536,6 +547,8 @@ def tailor_resume(master_data_path, jd_path, template_path, output_path, profile
     output = output.replace("<<EXPERIENCE_ENTRIES>>", experience_tex)
     output = output.replace("<<SKILLS_ENTRIES>>", skills_tex)
     output = output.replace("<<EDUCATION_ENTRIES>>", education_tex)
+    spoken_languages_tex = render_spoken_languages(data.get("spoken_languages", []))
+    output = output.replace("<<LANGUAGES_SECTION>>", spoken_languages_tex)
 
     # Write output
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
