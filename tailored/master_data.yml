@@ -23,15 +23,16 @@ profile:
   summaries:
     default: >
       Senior Distributed Systems & Cloud Engineer with 15+ years of experience designing,
-      building, and operating high-reliability production systems across fintech, loyalty
-      platforms, e-commerce, and B2B marketplaces. Proven track record leading cloud
-      infrastructure migrations (Azure to AWS), decomposing monoliths into 10+ independently
-      deployable microservices, and building payment systems handling hundreds of millions IDR
-      in monthly transactions. Deep expertise in <<LANGUAGES>> with
-      hands-on production experience across AWS (Lambda, ECS, SQS, Aurora), PostgreSQL, MySQL,
-      Redis, and event-driven architectures. Experienced collaborating with distributed global
-      engineering teams across the US, UK, and Southeast Asia. Open to senior remote roles in
-      scalable cloud platforms and distributed systems.
+      building, and operating production-grade, scalable distributed systems across fintech,
+      loyalty platforms, e-commerce, and B2B marketplaces. Proven track record delivering
+      across the full development lifecycle — leading cloud infrastructure migrations (Azure
+      to AWS), decomposing monoliths into 10+ independently deployable microservices, and
+      building payment systems handling hundreds of millions IDR in monthly transactions.
+      Deep expertise in <<LANGUAGES>> with hands-on production experience across AWS (Lambda,
+      ECS, SQS, Aurora), GCP, PostgreSQL, MySQL, Redis, and event-driven architectures.
+      Experienced collaborating cross-functionally with product, design, and data teams across
+      distributed global engineering organizations in the US, UK, and Southeast Asia. Open to
+      senior remote roles in scalable cloud platforms and distributed systems.
 
     backend: >
       Senior Backend Engineer with 15+ years of experience building and scaling secure,
@@ -93,6 +94,10 @@ experience:
         alt:
           backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services and delivered feature enhancements that improved platform stability and system performance"
           devops: "Resolved critical production incidents and delivered infrastructure enhancements that improved platform stability, uptime, and system performance across AWS ECS deployments"
+      - text: "Migrated Jive's Activity and Recommendation Engine to Apache Lucene-based indexing and built Top and Trending feed features with configurable scoring logic that ranked content by weighted user actions (likes, comments, replies)"
+        tags: [java, search, feed, recommendation, activity-scoring, lucene, scoring]
+        alt:
+          backend: "Migrated Jive's Activity and Recommendation Engine from a custom scoring system to Apache Lucene-based indexing, and designed Top and Trending feed ranking algorithms using weighted activity scores (likes, comments, replies, creates) to surface the top N content items for users"
       - text: "Built Python CLI tooling to automate the end-to-end Jive platform migration across 50+ instances, orchestrating data migration, CloudFormation deployments, S3 bucket transfers, and post-migration file validation"
         tags: [python, cli, migration, tooling, automation, aws, cloudformation, s3]
         alt:
@@ -126,11 +131,11 @@ experience:
         alt:
           backend: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), designing the API contract and building fault-tolerant exchange logic for cross-platform loyalty point exchange"
           leadership: "Led the technical delivery of point conversion integration with BCA Rewards (major Indonesian bank), coordinating with external partners to enable cross-platform loyalty point exchange"
-      - text: "Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue"
-        tags: [nodejs, integration, e-commerce, high-throughput, revenue]
+      - text: "Built real-time integration with Involve Asia's performance marketing platform via idempotent postback webhook ingestion, reconciling conversion events against internal user records using client-supplied transaction keys to attribute affiliate transactions to loyalty rewards without double-earning — processing tens of thousands of monthly e-commerce transactions and generating millions in revenue"
+        tags: [nodejs, integration, e-commerce, high-throughput, revenue, martech, adtech-adjacent, webhook, attribution, conversion-tracking, real-time, postback, performance-marketing, affiliate, idempotency, deduplication]
         alt:
-          backend: "Developed high-throughput affiliate marketing integration processing tens of thousands of e-commerce transactions daily, building idempotent pipelines that generated millions in monthly revenue"
-          devops: "Developed and operated affiliate marketing integration on AWS Lambda processing tens of thousands of e-commerce transactions, ensuring reliability and observability for a pipeline generating millions in monthly revenue"
+          backend: "Built backend integration with Involve Asia's performance marketing platform, consuming real-time conversion postback webhooks with idempotent reconciliation logic keyed on client-supplied transaction identifiers to attribute affiliate conversions to internal users and disburse loyalty rewards without duplicates — processing tens of thousands of monthly e-commerce transactions generating millions in revenue"
+          devops: "Built and operated Involve Asia performance marketing integration on AWS Lambda, ingesting real-time conversion postback webhooks with idempotent processing, observability, and reliability instrumentation for a pipeline processing tens of thousands of e-commerce transactions monthly and generating millions in revenue"
       - text: "Established coding standards, AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), and standardized OAuth-based authentication for all customer-facing API endpoints, improving security posture and developer velocity"
         tags: [aws, cicd, serverless, security, devops, authentication, oauth, coding-standards]
         alt:
@@ -258,7 +263,7 @@ experience:
 
 skills:
   - skill: "Distributed Systems & Architecture"
-    description: "Microservices, event-driven architecture, pub-sub messaging, scalable backend design, reliability engineering, monolith decomposition, REST API design"
+    description: "Microservices, system design, event-driven architecture, pub-sub messaging, scalable backend design, reliability engineering, monolith decomposition, REST API design"
     tags: [architecture, backend, distributed-systems]
 
   - skill: "Languages & Frameworks"
@@ -266,7 +271,7 @@ skills:
     tags: [backend, programming, frameworks]
 
   - skill: "Cloud & Infrastructure"
-    description: "AWS (Lambda, ECS, EC2, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, Kubernetes, DevOps, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code"
+    description: "AWS (Lambda, ECS, EC2, SQS, SNS, S3, RDS, Aurora, CloudFormation, CloudWatch), Azure, GCP, Docker, Kubernetes, DevOps, Git, CI/CD (Bamboo, Bitbucket Pipelines, GitHub Actions), Infrastructure as Code"
     tags: [cloud, devops, infrastructure, aws, kubernetes]
 
   - skill: "Databases"
