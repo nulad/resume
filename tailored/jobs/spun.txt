@@ -1,0 +1,20 @@
+Senior Backend Engineer - SPUN
+
+This is a full-time role for a Senior Backend Engineer. You will work directly with the engineering team and co-founders to architect, build, and scale the core infrastructure that powers SPUN's platform. Your work will include designing robust backend systems, driving critical technical decisions, and ensuring our AI-driven visa products are highly reliable, performant, and ready to scale for our global users.
+
+We are looking for someone who has navigated the rapid, fast iteration of an early-stage startup as well as the structured, high-volume scale of big tech. You will set the standard for backend engineering at SPUN and help future-proof our technology as we grow.
+
+Working Conditions
+Role type: Full-time
+Working location: Jakarta, Indonesia (WFO on Tue–Thu, WFA on Mon & Fri)
+
+Qualifications
+- 5+ years of hands-on experience in backend software engineering.
+- Proven track record of working in both early-stage startups and big tech companies.
+- Experience guiding and mentoring backend teams while driving a culture of technical excellence, high standards, and deep ownership.
+- Deep understanding of Python frameworks internals, performance optimization (e.g., profiling, memory management, concurrency workflows), and modern ecosystem tools.
+- Ability to architect and plan systems in a scalable way—optimizing not just for fast delivery, but ensuring robust infrastructure for performance tracking, observability, and analytical purposes.
+- Deep understanding of scalable API development, best practices alongside a strong commitment to document a clear, high-quality technical documentation for internal and external integrations.
+- High proactive, problem-solving mentality with the ability to work effectively in a fast-paced team environment.
+- Strong interest in AI driven products.
+- Nice to have: Familiarity with cloud infrastructure (AWS preferred) and containerization.

@@ -99,6 +99,8 @@ TECH_KEYWORDS = {
     "cloud", "migration", "security", "authentication", "oauth",
     "scalability", "reliability", "performance", "monitoring",
     "observability", "distributed", "architecture",
+    "saas", "b2b-saas", "multi-tenant", "multitenant", "tenant",
+    "telephony", "telephony-saas",
 }
 
 
@@ -264,7 +266,7 @@ def score_experience(exp, jd_keywords):
     return score
 
 
-def render_experience_entries(experiences, jd_keywords, profile, max_roles=5):
+def render_experience_entries(experiences, jd_keywords, profile, max_roles=5, max_bullets=4):
     """Render the most relevant experience entries as LaTeX."""
     # Score and rank roles, but preserve chronological order among selected ones
     scored = [(i, score_experience(exp, jd_keywords)) for i, exp in enumerate(experiences)]
@@ -280,7 +282,7 @@ def render_experience_entries(experiences, jd_keywords, profile, max_roles=5):
         location = escape_latex(exp.get("location", ""))
         tech_stack = escape_latex(exp.get("tech_stack", ""))
 
-        bullets = select_experience_bullets(exp, jd_keywords, profile)
+        bullets = select_experience_bullets(exp, jd_keywords, profile, max_bullets=max_bullets)
         bullet_lines = "\n".join(
             f"  \\item {escape_latex(b)}" for b in bullets
         )
@@ -297,12 +299,13 @@ def render_experience_entries(experiences, jd_keywords, profile, max_roles=5):
     return "\n\n\\vspace{6pt}\n\n".join(entries)
 
 
-def render_skills_entries(skills):
+def render_skills_entries(skills, languages_sorted=""):
     """Render skills section as LaTeX."""
     items = []
     for skill in skills:
         name = escape_latex(skill["skill"])
-        desc = escape_latex(skill["description"])
+        desc = skill["description"].replace("<<LANGUAGES>>", languages_sorted)
+        desc = escape_latex(desc)
         items.append(f"  \\item \\textbf{{{name}:}} {desc}")
 
     return "\\begin{itemize}\n" + "\n".join(items) + "\n\\end{itemize}"
@@ -443,45 +446,64 @@ def _report_skills_gap(jd_keywords, data):
         print("\n✓  No skills gap — all JD tech keywords found in resume")
 
 
+# ── Seniority detection ──────────────────────────────────
+
+def detect_seniority(jd_text):
+    """Decide whether the tailored summary should lead with a seniority prefix.
+
+    Returns a string to substitute for <<SENIORITY>> in the summary, e.g.:
+      - "Senior "  → JD signals senior/staff/lead/principal scope
+      - ""         → JD reads as IC / mid-level / unspecified
+
+    The trailing space is part of the substitution so that "Senior Backend Engineer"
+    and "Backend Engineer" both render cleanly without manual spacing fixes.
+    """
+    text = jd_text.lower()
+
+    # Negative signals force IC framing, even if a positive token appears
+    # elsewhere (JDs often say "work with senior engineers" while hiring IC).
+    negative = [r"\bjunior\b", r"\bjr\.?\b", r"\bmid[- ]level\b",
+                r"\bentry[- ]level\b", r"\bintern\b", r"\bgraduate\b"]
+    if any(re.search(p, text) for p in negative):
+        return ""
+
+    # Positive signals — word-boundary matched to avoid "lead" ⊂ "leadership"
+    # and "sr" ⊂ unrelated tokens.
+    positive = [r"\bsenior\b", r"\bsr\.?\b", r"\bstaff\b",
+                r"\blead\b", r"\bprincipal\b"]
+    if any(re.search(p, text) for p in positive):
+        return "Senior "
+
+    return ""
+
+
 # ── Language sorting ─────────────────────────────────────
 
-def sort_languages_by_jd(languages, jd_keywords):
-    """Sort language list by relevance to JD and format as a human-readable string.
+def sort_languages_by_jd(languages, jd_keywords, style="prose"):
+    """Sort language list by relevance to JD and format as a string.
 
-    Args:
-        languages: list of dicts with 'name' and 'keywords' fields, e.g.:
-            [{"name": "Python", "keywords": ["python", "django", "flask"]},
-             {"name": "C# (.NET)", "keywords": ["c#", "csharp", ".net", "dotnet"]}]
-        jd_keywords: Counter of {keyword: score} extracted from the JD
-
-    Returns:
-        A formatted string like "Python, C# (.NET), Java, Node.js, Golang, and PHP"
-        (Oxford comma before "and" for the last item)
+    style="prose" → "Python, C# (.NET), Java, and PHP" (Oxford comma, for summaries)
+    style="list"  → "Python, C# (.NET), Java, PHP" (comma-only, for skill lists)
     """
-    # Score each language by summing JD keyword weights for its keywords
     scored = []
     for lang in languages:
         score = sum(jd_keywords.get(kw.lower(), 0) for kw in lang.get("keywords", []))
         scored.append((score, lang["name"]))
 
-    # Sort by score descending, then alphabetically for ties
     scored.sort(key=lambda x: (-x[0], x[1]))
     names = [name for _, name in scored]
 
-    # Format with Oxford comma
-    if len(names) == 0:
-        return ""
-    elif len(names) == 1:
-        return names[0]
-    elif len(names) == 2:
+    if style == "list" or len(names) <= 1:
+        return ", ".join(names)
+    if len(names) == 2:
         return f"{names[0]} and {names[1]}"
-    else:
-        return ", ".join(names[:-1]) + ", and " + names[-1]
+    return ", ".join(names[:-1]) + ", and " + names[-1]
 
 
 # ── Main pipeline ────────────────────────────────────────
 
-def tailor_resume(master_data_path, jd_path, template_path, output_path, profile="auto"):
+def tailor_resume(master_data_path, jd_path, template_path, output_path, profile="auto",
+                  max_roles=5, max_bullets=4):
     """Main tailoring pipeline."""
     # Load data
     with open(master_data_path) as f:
@@ -526,12 +548,16 @@ def tailor_resume(master_data_path, jd_path, template_path, output_path, profile
     summary = summaries.get(profile, summaries.get("default", ""))
     languages_sorted = sort_languages_by_jd(prof.get("languages", []), jd_keywords)
     summary = summary.replace("<<LANGUAGES>>", languages_sorted)
+    seniority = detect_seniority(jd_text)
+    summary = summary.replace("<<SENIORITY>>", seniority)
+    print(f"\nSeniority prefix: {seniority!r}")
 
     # Render sections
     experience_tex = render_experience_entries(
-        data["experience"], jd_keywords, profile
+        data["experience"], jd_keywords, profile, max_roles=max_roles, max_bullets=max_bullets
     )
-    skills_tex = render_skills_entries(data["skills"])
+    languages_list = sort_languages_by_jd(prof.get("languages", []), jd_keywords, style="list")
+    skills_tex = render_skills_entries(data["skills"], languages_list)
     education_tex = render_education_entries(data["education"])
 
     # Fill template
@@ -568,6 +594,8 @@ def main():
     parser.add_argument("--master", default=None, help="Path to master_data.yml")
     parser.add_argument("--template", default=None, help="Path to LaTeX template")
     parser.add_argument("--output", default=None, help="Output .tex file path")
+    parser.add_argument("--max-roles", type=int, default=5, help="Max experience entries to render")
+    parser.add_argument("--max-bullets", type=int, default=4, help="Max bullets per role")
 
     args = parser.parse_args()
 
@@ -579,7 +607,8 @@ def main():
     template = args.template or str(tailored_dir / "templates" / "resume.tex")
     output = args.output or str(tailored_dir / "output" / "resume.tex")
 
-    tailor_resume(master, args.jd, template, output, args.profile)
+    tailor_resume(master, args.jd, template, output, args.profile,
+                  max_roles=args.max_roles, max_bullets=args.max_bullets)
 
 
 if __name__ == "__main__":

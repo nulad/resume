@@ -1,0 +1,16 @@
+Senior Software Engineer - RevComm
+
+Company Description
+RevComm is an award-winning Unicorn SaaS startup recognized by Forbes, Sequoia, and Meritech Capital as one of the Top 50 AI Companies in the World, alongside global leaders such as AWS and Nvidia. RevComm focuses on revolutionizing business communication through innovative AI and cloud-based software. Its flagship product, "MiiTel Phone," is an IP-phone powered by a Revenue Intelligence Platform that analyzes and visualizes sales calls and contact center interactions to optimize sales and customer service processes. Driven by the mission "Reinventing communications to create a society where people think of others," RevComm continues to push the boundaries of corporate communication.
+
+Role Description
+The Senior Software Engineer will play a leading role in designing, developing, and maintaining back-end systems and applications to support RevComm's innovative software solutions. Daily responsibilities include collaborating with cross-functional teams, writing clean and scalable code, reviewing and refining program structure, and ensuring optimal system performance. The role requires attention to detail and adherence to high code quality standards. This is a full-time, on-site position located in Jakarta, Indonesia.
+
+Qualifications
+- Proficiency in Back-End Web Development, with experience in building and maintaining APIs and server-side systems.
+- Expertise in Software Development and Programming, with a focus on developing scalable and efficient solutions.
+- Strong foundation in Computer Science principles, including algorithms and data structures.
+- Ability to work collaboratively on complex technical projects and problem-solving with a team.
+- Proven capacity for learning new technologies and adapting to a fast-paced work environment.
+- Bachelor's degree in Computer Science, Engineering, or a related field is a plus.
+- Experience with cloud-based platforms and familiarity with SaaS development is a plus.
