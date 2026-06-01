@@ -4,10 +4,11 @@
   duration: Apr, 2024 &mdash; Dec, 2025
   description: American software company headquartered in Austin, Texas.
   bullets:
-    - Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity
+    - Spearheaded platform consolidation to unify two divergent Jive deployments&mdash;one Puppet-managed on EC2, one on Kubernetes&mdash;into a single CloudFormation-driven ECS platform, reducing operational complexity and strengthening customer retention
     - Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and improving long-term maintainability
     - Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance
-  tech_stack: Java, Spring Security, Apache Struts 2, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3)
+    - Operated an AI-assisted development workflow on GitHub-issue intake&mdash;grounding root-cause analysis and feature planning in production logs and databases via in-house RAG and MCP tooling, securing tech-lead approval, then shipping fixes through AI-first IDEs (Cursor, Windsurf) to reduce speculative rework
+  tech_stack: Java, Spring Security, Apache Struts 2, Apache Tomcat, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, CloudFormation, S3), AI-assisted workflows (RAG, MCP, Cursor, Windsurf)
 
 - company: PT. Global Poin Indonesia
   position: Senior Backend Engineer
@@ -16,9 +17,9 @@
   bullets:
     - Spearheaded infrastructure migration from Azure to AWS, reducing hosting costs and improving deployment reliability across 10+ microservices
     - Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services for improved scalability
-    - Built and maintained the back-office invoice and payment system, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors
-    - Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange
-    - Developed affiliate marketing integration processing tens of thousands of e-commerce transactions and generating millions in monthly revenue
+    - Built the back-office invoice and payment system 0 to 1&mdash;gathered requirements from finance and vendor relations teams, designed the data model and system architecture from scratch, implemented and operated it end-to-end, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors
+    - Built BCA Rewards point conversion integration 0 to 1 with a major Indonesian bank&mdash;partnered with Product Owners on requirements refinement, designed the data model and reconciliation logic from scratch, enabling cross-platform loyalty point exchange between GetPlus and BCA Rewards
+    - Re-platformed the Involve Asia performance marketing integration from PHP to Node.js, redesigning it around idempotent postback webhook ingestion and transaction-key reconciliation to attribute affiliate conversions without double-earning&mdash;processing tens of thousands of monthly e-commerce transactions and generating millions in revenue
     - Established AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework) and standardized authentication for all customer-facing API endpoints, improving security posture and developer velocity
   tech_stack: Node.js, PHP, AWS (Lambda, SQS, S3), Aurora MySQL, Redis
 

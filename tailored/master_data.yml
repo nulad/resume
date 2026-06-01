@@ -2,7 +2,7 @@
 
 profile:
   name: "Nulad W. Pambudi"
-  title: "Senior Distributed Systems & Cloud Engineer"
+  title: "Senior Software Engineer"
   email: "nuladwisnupambudi@gmail.com"
   phone: "+62 852 1138 5794"
   location: "Depok, Indonesia"
@@ -13,7 +13,7 @@ profile:
   # Language list — tailor.py reorders based on JD keyword scores
   languages:
     - { name: "Node.js", keywords: ["nodejs", "node.js", "node", "javascript"] }
-    - { name: "Golang", keywords: ["golang", "go"] }
+    - { name: "Golang (Go)", keywords: ["golang", "go"] }
     - { name: "Java", keywords: ["java", "spring"] }
     - { name: "PHP", keywords: ["php"] }
     - { name: "C# (.NET)", keywords: ["c#", "csharp", ".net", "dotnet"] }
@@ -22,17 +22,17 @@ profile:
   # Multiple summary variants for different role types
   summaries:
     default: >
-      <<SENIORITY>>Distributed Systems & Cloud Engineer with 15+ years of experience designing,
-      building, and operating production-grade, scalable distributed systems across fintech,
-      loyalty platforms, e-commerce, and B2B marketplaces. Proven track record delivering
+      <<SENIORITY>>Software Engineer with 15+ years of experience designing, building, and 
+      operating production-grade, scalable distributed systems across fintech, loyalty 
+      platforms, e-commerce, and B2B marketplaces. Proven track record delivering
       across the full development lifecycle — leading cloud infrastructure migrations (Azure
       to AWS), decomposing monoliths into 10+ independently deployable microservices, and
       building payment systems handling hundreds of millions IDR in monthly transactions.
       Deep expertise in <<LANGUAGES>> with hands-on production experience across AWS (Lambda,
       ECS, SQS, Aurora), GCP, PostgreSQL, MySQL, Redis, and event-driven architectures.
       Experienced collaborating cross-functionally with product, design, and data teams across
-      distributed global engineering organizations in the US, UK, and Southeast Asia. Open to
-      senior remote roles in scalable cloud platforms and distributed systems.
+      distributed global engineering organizations in the US, UK, and Southeast Asia. Based in 
+      Greater Jakarta and open to on-site, hybrid, and remote senior software engineering roles.
 
     backend: >
       <<SENIORITY>>Backend Engineer with 15+ years of experience building and scaling secure,
@@ -44,7 +44,8 @@ profile:
       with deep production experience in PostgreSQL, MySQL, Aurora, MongoDB, and Redis.
       Implemented secure authentication and authorization mechanisms including OAuth and
       SAML SSO across multiple platforms. Experienced collaborating with distributed global
-      engineering teams across the US, UK, and Southeast Asia.
+      engineering teams across the US, UK, and Southeast Asia. Based in Greater Jakarta and
+      open to on-site, hybrid, and remote senior backend roles.
 
     devops: >
       <<SENIORITY>>Cloud & Infrastructure Engineer with 15+ years of experience architecting,
@@ -79,31 +80,46 @@ experience:
     location: "Austin, TX (Remote)"
     description: "American software company headquartered in Austin, Texas."
     bullets:
-      - text: "Spearheaded platform consolidation project to unify multiple Jive community systems into a single platform, strengthening customer retention and reducing operational complexity"
-        tags: [java, migration, platform-engineering, leadership, spring, saas, multi-tenant]
+      - text: "Spearheaded platform consolidation to unify two divergent Jive deployments — one Puppet-managed on EC2, one on Kubernetes — into a single CloudFormation-driven ECS platform, reducing operational complexity and strengthening customer retention"
+        tags: [java, migration, platform-engineering, leadership, spring, saas, multi-tenant, kubernetes, ecs, cloudformation, puppet, devops]
         alt:
-          leadership: "Led cross-functional platform consolidation initiative to unify multiple Jive community systems into a single platform, coordinating across teams to strengthen customer retention and reduce operational complexity"
-          backend: "Architected and executed platform consolidation to unify multiple Jive community systems into a single platform, designing data migration strategies and API integration points to reduce operational complexity"
+          leadership: "Led cross-functional platform consolidation to merge two divergent Jive deployments (Puppet on EC2 + Kubernetes) into a single CloudFormation-driven ECS platform, coordinating across teams to reduce operational complexity and strengthen customer retention"
+          backend: "Architected and executed platform consolidation merging two divergent Jive deployments (Puppet/EC2 and Kubernetes) into a unified CloudFormation/ECS platform — containerizing services as Docker images for ECS and designing data migration strategies and API integration points to reduce operational complexity"
+          devops: "Consolidated two divergent Jive production environments (Puppet on EC2 and Kubernetes) onto a single CloudFormation-driven ECS platform, redesigning the deployment topology to reduce operational complexity and standardize release pipelines"
+          fullstack: "Spearheaded platform consolidation to unify two divergent Jive deployments — Puppet on EC2 and Kubernetes — into a single CloudFormation/ECS platform, reducing operational complexity and strengthening customer retention"
+      - text: "Migrated Jive's Kinesis-based activity-event pub-sub integration — content creation, likes, and comments fanned out to separate analytics and gamification consumers — onto the Jive Hosted-on-Premise (HOP) deployment, enabling its cloud-style pub-sub path so both downstream services behaved identically to the microservices-based cloud version"
+        tags: [java, kinesis, event-driven, pub-sub, messaging, message-broker, migration, analytics, gamification, saas, distributed-systems, architecture]
+        alt:
+          backend: "Ported Jive's event-driven activity-event pipeline — content, like, and comment events published to Kinesis and fanned out to independent analytics and gamification consumers — from the cloud architecture onto the Jive Hosted-on-Premise (HOP) deployment, enabling HOP's pub-sub message-broker path so both downstream services consumed events identically to the microservices-based cloud version"
+          devops: "Migrated Jive's Kinesis-backed activity-event pub-sub pipeline onto the Hosted-on-Premise (HOP) deployment, switching HOP from its default local monolith messaging to the cloud-style pub-sub architecture so analytics and gamification consumers received fanned-out events identically to the cloud environment"
       - text: "Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities and modernizing OAuth login integration to improve long-term maintainability"
         tags: [java, security, maintenance, spring, dependency-management, oauth, authentication]
         alt:
           devops: "Upgraded Jive platform libraries and frameworks across various modules, remediating CVE-tracked security vulnerabilities and improving long-term maintainability of the deployment pipeline"
           backend: "Upgraded Jive platform libraries and frameworks across various modules, remediating security vulnerabilities through dependency updates and modernizing OAuth login integration for improved code maintainability"
-      - text: "Resolved critical production bugs and delivered feature enhancements that improved platform stability and system performance"
-        tags: [java, debugging, performance, reliability]
+      - text: "Diagnosed and resolved critical production bugs and delivered feature enhancements that improved platform stability and performance, using kubectl to inspect pod logs, environment configuration, and pod health on the Kubernetes-based deployment"
+        tags: [java, debugging, performance, reliability, kubernetes, kubectl, operations, devops]
         alt:
-          backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services and delivered feature enhancements that improved platform stability and system performance"
+          backend: "Diagnosed and resolved critical production bugs in Java/Spring backend services — using kubectl to inspect pod logs, environment configuration, and pod health on the Kubernetes-based deployment — and delivered feature enhancements that improved platform stability and system performance"
           devops: "Resolved critical production incidents and delivered infrastructure enhancements that improved platform stability, uptime, and system performance across AWS ECS deployments"
       - text: "Migrated Jive's Activity and Recommendation Engine to Apache Lucene-based indexing and built Top and Trending feed features with configurable scoring logic that ranked content by weighted user actions (likes, comments, replies)"
         tags: [java, search, feed, recommendation, activity-scoring, lucene, scoring, saas]
         alt:
           backend: "Migrated Jive's Activity and Recommendation Engine from a custom scoring system to Apache Lucene-based indexing, and designed Top and Trending feed ranking algorithms using weighted activity scores (likes, comments, replies, creates) to surface the top N content items for users"
+      - text: "Designed a PostgreSQL schema and query optimization solution for Jive's Top Activity feed, improving query performance and data retrieval efficiency"
+        tags: [java, postgresql, database, schema-design, query-optimization, performance, spring, saas]
       - text: "Built Python CLI tooling to automate the end-to-end Jive platform migration across 50+ instances, orchestrating data migration, CloudFormation deployments, S3 bucket transfers, and post-migration file validation"
         tags: [python, cli, migration, tooling, automation, aws, cloudformation, s3, saas, multi-tenant]
         alt:
           backend: "Developed Python CLI tooling to automate the end-to-end Jive platform migration pipeline across 50+ instances, orchestrating data migration, CloudFormation deployments, S3 bucket transfers, and post-migration validation"
           devops: "Engineered Python CLI tooling to automate the end-to-end Jive migration workflow across 50+ instances, orchestrating CloudFormation deployments, S3 bucket transfers, data migration, and post-migration file validation to minimize manual intervention"
-    tech_stack: "Java 8, Spring Framework, Spring Security (OAuth2), Apache Struts 2, Apache Tomcat 9, Maven, Python, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, EC2, CloudFormation, S3)"
+      - text: "Operated an AI-assisted development workflow on GitHub-issue intake — grounding root-cause analysis and feature planning in production logs and databases via in-house RAG and MCP tooling, securing tech-lead approval, then shipping fixes through AI-first IDEs (Windsurf, Cursor) to reduce speculative rework"
+        tags: [ai, ai-assisted-development, rag, mcp, copilot, cursor, windsurf, prompting, workflow, github, productivity, product-engineering]
+        alt:
+          backend: "Operated an AI-assisted backend development workflow — triaging GitHub issues by querying production logs and databases through in-house RAG and MCP tooling, scoping fixes with tech-lead review, then implementing in AI-first IDEs (Windsurf, Cursor) to ship validated changes faster"
+          fullstack: "Adopted an AI-native end-to-end workflow — grounded GitHub-issue triage in production data via in-house RAG and MCP, validated plans with tech leads, and executed both backend and frontend changes through AI-first IDEs (Windsurf, Cursor), shipping PRs with traceable change summaries"
+          devops: "Integrated AI-assisted tooling into the engineering workflow — leveraging in-house RAG and MCP servers to query production logs and databases for root-cause analysis, then executing approved changes through AI-first IDEs (Windsurf, Cursor) to reduce speculative debugging cycles"
+    tech_stack: "Java 8, Spring Framework, Spring Security (OAuth2), Apache Struts 2, Apache Tomcat 9, Maven, Python, PostgreSQL, Oracle, MySQL, MSSQL, AWS (ECS, EC2, CloudFormation, S3, Kinesis)"
 
   - company: "PT. Global Poin Indonesia"
     position: "Senior Backend Engineer"
@@ -122,26 +138,33 @@ experience:
           backend: "Architected and executed monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services with clear domain boundaries, including database schema redesign and per-service data ownership for improved scalability"
           fullstack: "Drove monolith-to-microservices migration, decomposing a legacy Node.js application into independently deployable services with clear domain boundaries and redesigned database schemas, collaborating with front-end engineers on API contract design for improved scalability"
           leadership: "Drove monolith-to-microservices migration initiative, defining the decomposition strategy and guiding the team through incremental extraction of a legacy Node.js application into independently deployable services"
-      - text: "Led end-to-end system design of the back-office invoice and payment system integrated with BCA payment gateway, architecting RESTful APIs engineered for reliability and performance at scale, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
-        tags: [nodejs, payments, fintech, backend, reliability, api, security, database, performance, payment-gateway, architecture, high-performance, restful, rest, scalability, api-design, production-grade, saas, b2b-saas]
+      - text: "Designed an SQS-based asynchronous messaging pattern to decouple a long-running loyalty-point generation service from its callers — any service awarding points enqueues a message that a dedicated worker consumes independently, with SQS retry and dead-letter handling, keeping core user-facing flows responsive"
+        tags: [nodejs, aws, sqs, event-driven, messaging, message-broker, async, architecture, microservices, backend, decoupling, reliability, scalability]
         alt:
-          backend: "Led end-to-end system design of the back-office invoice and payment system, building secure RESTful APIs integrated with BCA payment gateway (industry-standard payment gateway integration patterns comparable to Xendit/Midtrans flows) and optimized database schemas, engineered for reliability and performance to process hundreds of millions IDR in monthly disbursements to 90% of GetPlus vendors"
-          fullstack: "Built and maintained the end-to-end back-office invoice and payment system integrated with BCA payment gateway, including admin interfaces and RESTful backend APIs architected for reliability and performance, collaborating with front-end engineers on API contract and response-shape design, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
-      - text: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), enabling cross-platform loyalty point exchange"
-        tags: [nodejs, integration, fintech, api, partnerships, saas, b2b-saas]
+          backend: "Designed an SQS message-broker pattern to decouple a long-running loyalty-point generation service from its callers: any service awarding points enqueues a message that a dedicated points worker consumes asynchronously, with retries and dead-letter queues handled via SQS, keeping core user-facing flows responsive under load"
+      - text: "Built the back-office invoice and payment system 0 to 1 — gathered requirements directly from finance and vendor relations teams, designed the data model and system architecture from scratch, implemented and operated it end-to-end with BCA payment gateway integration, computing vendor settlement amounts from an immutable, append-only transaction ledger and disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+        tags: [nodejs, payments, fintech, backend, reliability, api, security, database, performance, payment-gateway, architecture, high-performance, restful, rest, scalability, api-design, production-grade, saas, b2b-saas, zero-to-one, greenfield, product-engineering, audit-trail, immutable, ledger, audit, reconciliation, sql]
         alt:
-          backend: "Implemented point conversion integration with BCA Rewards (major Indonesian bank), designing the API contract and building fault-tolerant exchange logic for cross-platform loyalty point exchange"
-          leadership: "Led the technical delivery of point conversion integration with BCA Rewards (major Indonesian bank), coordinating with external partners to enable cross-platform loyalty point exchange"
-      - text: "Built real-time integration with Involve Asia's performance marketing platform via idempotent postback webhook ingestion, reconciling conversion events against internal user records using client-supplied transaction keys to attribute affiliate transactions to loyalty rewards without double-earning — processing tens of thousands of monthly e-commerce transactions and generating millions in revenue"
-        tags: [nodejs, integration, e-commerce, high-throughput, revenue, martech, adtech-adjacent, webhook, attribution, conversion-tracking, real-time, postback, performance-marketing, affiliate, idempotency, deduplication, saas, b2b-saas]
+          backend: "Designed and built the back-office invoice and payment system 0 to 1 — gathered requirements from finance and vendor relations stakeholders, designed the data model and RESTful API architecture from scratch and operated it end-to-end with BCA payment gateway integration, implementing the financial-computation logic that derived vendor settlement amounts from an immutable, append-only transaction ledger and disbursed hundreds of millions IDR monthly to 90% of GetPlus vendors"
+          fullstack: "Built the back-office invoice and payment system 0 to 1 — partnered with finance and vendor relations teams on requirements, designed the data model and system architecture from scratch, then implemented admin interfaces and RESTful backend APIs end-to-end with BCA payment gateway integration, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+          leadership: "Led the back-office invoice and payment system 0 to 1 — drove discovery with finance and vendor relations, owned the data model and architecture decisions, then delivered and operated the system through BCA payment gateway integration, disbursing hundreds of millions IDR monthly to 90% of GetPlus vendors"
+      - text: "Built BCA Rewards point conversion integration 0 to 1 with a major Indonesian bank — partnered with Product Owners on requirements refinement, designed the data model and reconciliation logic from scratch, enabling cross-platform loyalty point exchange between GetPlus and BCA Rewards"
+        tags: [nodejs, integration, fintech, api, partnerships, saas, b2b-saas, zero-to-one, greenfield, product-engineering]
         alt:
-          backend: "Built backend integration with Involve Asia's performance marketing platform, consuming real-time conversion postback webhooks with idempotent reconciliation logic keyed on client-supplied transaction identifiers to attribute affiliate conversions to internal users and disburse loyalty rewards without duplicates — processing tens of thousands of monthly e-commerce transactions generating millions in revenue"
-          devops: "Built and operated Involve Asia performance marketing integration on AWS Lambda, ingesting real-time conversion postback webhooks with idempotent processing, observability, and reliability instrumentation for a pipeline processing tens of thousands of e-commerce transactions monthly and generating millions in revenue"
+          backend: "Built BCA Rewards point conversion integration 0 to 1 — collaborated with Product Owners on requirements, designed the API contract and fault-tolerant exchange logic from scratch, enabling cross-platform loyalty point exchange with a major Indonesian bank"
+          fullstack: "Built BCA Rewards point conversion integration 0 to 1 — partnered with Product Owners on business requirements, designed the data model and exchange logic from scratch, and shipped the end-to-end integration enabling cross-platform loyalty point exchange between GetPlus and BCA Rewards"
+          leadership: "Led BCA Rewards point conversion integration 0 to 1 — coordinated with Product Owners and external bank partners to refine requirements and deliver a cross-platform loyalty point exchange between GetPlus and a major Indonesian bank"
+      - text: "Re-platformed the Involve Asia performance marketing integration from PHP to Node.js, redesigning it around idempotent postback webhook ingestion and transaction-key reconciliation to attribute affiliate conversions without double-earning — processing tens of thousands of monthly e-commerce transactions and generating millions in revenue"
+        tags: [nodejs, php, integration, e-commerce, high-throughput, revenue, martech, adtech-adjacent, webhook, attribution, conversion-tracking, real-time, postback, performance-marketing, affiliate, idempotency, deduplication, saas, b2b-saas, re-platform, modernization]
+        alt:
+          backend: "Re-platformed the Involve Asia performance marketing integration from PHP to Node.js, redesigning ingestion around idempotent postback webhooks with transaction-key reconciliation to attribute affiliate conversions to internal users and disburse loyalty rewards without duplicates — processing tens of thousands of monthly e-commerce transactions generating millions in revenue"
+          fullstack: "Re-platformed the Involve Asia performance marketing integration from PHP to Node.js, redesigning the ingestion pipeline around idempotent postback webhooks and transaction-key reconciliation to attribute affiliate conversions without double-earning, while collaborating with front-end engineers on dashboard contracts — processing tens of thousands of monthly e-commerce transactions and generating millions in revenue"
+          devops: "Re-platformed the Involve Asia performance marketing integration from PHP onto Node.js running on AWS Lambda, redesigning ingestion around idempotent postback webhooks with observability and reliability instrumentation for a pipeline processing tens of thousands of e-commerce transactions monthly and generating millions in revenue"
       - text: "Monitored Lambda endpoint performance via AWS CloudWatch dashboards, identifying throttling, cold-start, and latency bottlenecks to maintain SLA on high-traffic customer-facing APIs"
         tags: [aws, cloudwatch, monitoring, observability, performance, reliability, lambda, devops, saas]
         alt:
           devops: "Operated AWS CloudWatch dashboards and alarms for Lambda-based services, diagnosing throttling, cold-start, and latency bottlenecks across customer-facing APIs to maintain SLA on high-traffic endpoints"
-          backend: "Monitored and tuned Lambda endpoint performance using AWS CloudWatch metrics and dashboards, diagnosing throttling and cold-start bottlenecks on customer-facing APIs to sustain SLA under high traffic"
+          backend: "Drove observability for Lambda-based customer-facing APIs using AWS CloudWatch metrics, dashboards, and alarms, diagnosing throttling and cold-start bottlenecks to sustain SLA under high traffic"
       - text: "Established coding standards and peer code review practices for well-documented, unit-tested code within an agile/Scrum delivery cadence, built AWS CI/CD pipelines (Bitbucket Pipelines, Serverless Framework), and standardized OAuth-based authentication for all customer-facing API endpoints, improving security posture and developer velocity"
         tags: [aws, cicd, serverless, security, devops, authentication, oauth, coding-standards, code-review, agile, scrum]
         alt:
@@ -174,10 +197,10 @@ experience:
     location: "Jakarta, Indonesia"
     description: "B2B e-marketplace and e-procurement platform in Indonesia."
     bullets:
-      - text: "Built pub-sub messaging systems for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times"
-        tags: [nodejs, aws, event-driven, messaging, architecture, kinesis]
+      - text: "Integrated services with the platform's AWS Kinesis pub-sub messaging layer for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving response times"
+        tags: [nodejs, aws, event-driven, messaging, kinesis]
         alt:
-          backend: "Designed and built pub-sub messaging systems using AWS Kinesis (message-queue patterns equivalent to Kafka/RabbitMQ) for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving API response times"
+          backend: "Integrated backend services with the platform's AWS Kinesis pub-sub messaging layer for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving API response times"
           devops: "Built pub-sub messaging infrastructure on AWS Kinesis for asynchronous cross-domain data synchronization, reducing inter-service coupling and improving system response times"
       - text: "Designed and implemented a new user budget management microservice, expanding platform capabilities for enterprise procurement workflows"
         tags: [nodejs, microservices, backend, enterprise, product-development]
@@ -228,7 +251,7 @@ experience:
         alt:
           leadership: "Set coding standards and guided junior engineers through code reviews and programming best practices, establishing a culture of continuous learning and fostering team growth"
           backend: "Set coding standards and guided junior engineers in backend development best practices including clean architecture, testing, and code review, accelerating onboarding and fostering team growth"
-    tech_stack: ".NET, C#, MSSQL"
+    tech_stack: ".NET, C#, Microsoft SQL Server (MSSQL)"
 
   - company: "Mitrais"
     position: "Programmer"
@@ -241,20 +264,7 @@ experience:
         alt:
           backend: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), building and enhancing a consolidated debt management and compliance backend used by Australian local governments"
           fullstack: "Maintained Property & Rating module for TechnologyOne (Australia's largest enterprise software company), working across database, backend, and UI layers of a consolidated debt management and compliance solution used by Australian local governments"
-    tech_stack: ".NET, VB.NET, MSSQL"
-
-  - company: "Imtel Sinergi Utama"
-    position: "Software Developer"
-    duration: "Jan, 2011 &mdash; May, 2011"
-    location: "Jakarta, Indonesia"
-    description: "Software development outsourcing company serving Indonesian enterprises."
-    bullets:
-      - text: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines and ExtJS web frontend components"
-        tags: [dotnet, vbnet, sql-server, ssis, extjs, enterprise, etl]
-        alt:
-          backend: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines for ETL workflows and backend integrations"
-          devops: "Maintained internal enterprise software at Astra International (Indonesia's largest conglomerate), building SSIS data transformation pipelines for automated ETL workflows and data integration"
-    tech_stack: ".NET, VB.NET, SQL Server, SSIS"
+    tech_stack: ".NET, VB.NET, Microsoft SQL Server (MSSQL)"
 
   - company: "PLN"
     position: "Software Developer (Part time)"
@@ -271,11 +281,11 @@ experience:
 
 skills:
   - skill: "Distributed Systems & Architecture"
-    description: "Microservices, system design, data structures and algorithms, event-driven architecture, pub-sub messaging, scalable backend design for SaaS platforms, multi-tenant architecture, reliability engineering, monolith decomposition, REST API design"
+    description: "Microservices, system design, design patterns, data structures and algorithms, event-driven architecture, Pub/Sub (publish-subscribe) messaging, message brokers, scalable backend design for SaaS platforms, multi-tenant architecture, monolith decomposition, REST API design"
     tags: [architecture, backend, distributed-systems, saas, b2b-saas, multi-tenant]
 
   - skill: "Languages & Frameworks"
-    description: "<<LANGUAGES>>, Express.js, HTML5, CSS"
+    description: "<<LANGUAGES>>, Spring Framework, Spring Security, Express.js, HTML5, CSS"
     tags: [backend, programming, frameworks, web, frontend]
 
   - skill: "Cloud & Infrastructure"
@@ -283,18 +293,18 @@ skills:
     tags: [cloud, devops, infrastructure, aws, kubernetes]
 
   - skill: "Databases"
-    description: "PostgreSQL, MySQL, Aurora MySQL, MSSQL, MongoDB, Redis"
+    description: "PostgreSQL, MySQL, Aurora MySQL, Microsoft SQL Server (MSSQL), MongoDB, Redis"
     tags: [backend, databases, data]
 
   - skill: "Practices & Tools"
-    description: "Performance optimization, reliability engineering, OAuth 2.0 / SAML SSO authentication design, peer code review, mentoring, agile delivery (Scrum, Kanban), unit testing, integration testing, CloudWatch monitoring and observability, API testing with Postman, API documentation, database schema design, cross-functional collaboration with front-end engineers on API contracts"
+    description: "Performance optimization, OAuth 2.0 / SAML SSO authentication design, peer code review, mentoring, agile delivery (Scrum, Kanban), unit testing, integration testing, CloudWatch monitoring and observability, API testing with Postman, API documentation, database schema design, strong analytical and interpersonal skills"
     tags: [practices, leadership, quality, testing, tools, code-review, agile, scrum, monitoring, observability, database-design, fe-collab]
 
 education:
   - degree: "Master, Magister of Information Technology"
     uni: "University of Indonesia"
     year: "2014 &mdash; 2016"
-    summary: "Thesis on IT risk management in international startup environments. Focus on strategic alignment between organizational vision and Information Technology."
+    summary: "GPA 3.56 / 4.00. Thesis on IT risk management in international startup environments. Focus on strategic alignment between organizational vision and Information Technology."
     tags: [it-management, risk-management, strategy]
 
   - degree: "Bachelor, Computer Science"
